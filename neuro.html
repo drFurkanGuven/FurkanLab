@@ -1442,7 +1442,7 @@
                 to: connectionId,
                 color: edgeColor,
                 width: edgeWidth,
-                dashes: edgeType === 'dashed' ? [5, 5] : false,
+                dashes: edgeType === 'dashed' ? [5, 5] : undefined,
                 smooth: {
                   type: 'continuous',
                   roundness: edgeType === 'dashed' ? 0.3 : 0.1
@@ -1537,15 +1537,14 @@
         }
       });
 
-      // YENİ HALİ (Çözüm)
-    network.on('hoverNode', function(params) {
-      if (params.node) { // Sadece params.node kullanıyoruz
-        const nodeId = params.node;
-        const node = nodes.get(nodeId);
-        const cursor = (node.type === 'cranial_nerve' || node.type === 'peripheral_nerve' || node.type === 'spinal_segment') ? 'pointer' : 'default';
-        network.canvas.body.container.style.cursor = cursor;
-  }
-});
+      network.on('hoverNode', function(params) {
+        if (params.nodes && params.nodes.length > 0) {
+          const nodeId = params.nodes[0];
+          const node = nodes.get(nodeId);
+          const cursor = (node.type === 'cranial_nerve' || node.type === 'peripheral_nerve' || node.type === 'spinal_segment') ? 'pointer' : 'default';
+          network.canvas.body.container.style.cursor = cursor;
+        }
+      });
 
       network.on('blurNode', function() {
         network.canvas.body.container.style.cursor = 'default';
@@ -1814,13 +1813,16 @@
         brainNodes.push(neuroAnatomyData.brain[structureId].id);
       });
       
-      network.fit({
-        nodes: brainNodes,
-        animation: {
-          duration: 1000,
-          easingFunction: 'easeInOutQuad'
-        }
-      });
+      if (brainNodes.length > 0) {
+        network.selectNodes(brainNodes);
+        network.fit({
+          nodes: brainNodes,
+          animation: {
+            duration: 1000,
+            easingFunction: 'easeInOutQuad'
+          }
+        });
+      }
     }
 
     function focusSpinalCord() {
@@ -1829,13 +1831,16 @@
         spinalNodes.push(neuroAnatomyData.spinal_cord[structureId].id);
       });
       
-      network.fit({
-        nodes: spinalNodes,
-        animation: {
-          duration: 1000,
-          easingFunction: 'easeInOutQuad'
-        }
-      });
+      if (spinalNodes.length > 0) {
+        network.selectNodes(spinalNodes);
+        network.fit({
+          nodes: spinalNodes,
+          animation: {
+            duration: 1000,
+            easingFunction: 'easeInOutQuad'
+          }
+        });
+      }
     }
 
     function focusCranial() {
@@ -1844,13 +1849,16 @@
         cranialNodes.push(neuroAnatomyData.cranial_nerves[structureId].id);
       });
       
-      network.fit({
-        nodes: cranialNodes,
-        animation: {
-          duration: 1000,
-          easingFunction: 'easeInOutQuad'
-        }
-      });
+      if (cranialNodes.length > 0) {
+        network.selectNodes(cranialNodes);
+        network.fit({
+          nodes: cranialNodes,
+          animation: {
+            duration: 1000,
+            easingFunction: 'easeInOutQuad'
+          }
+        });
+      }
     }
 
     function showAllLesions() {
@@ -1982,13 +1990,21 @@
 
     // ── BAŞLATMA ──
     document.addEventListener('DOMContentLoaded', function() {
-      initializeNetwork();
-      setupControls();
-      
-      // Başlangıçta beyin yapısına odaklan
-      setTimeout(() => {
-        focusBrain();
-      }, 1000);
+      try {
+        initializeNetwork();
+        setupControls();
+        
+        // Başlangıçta beyin yapısına odaklan
+        setTimeout(() => {
+          try {
+            focusBrain();
+          } catch (error) {
+            console.error('Focus error:', error);
+          }
+        }, 1000);
+      } catch (error) {
+        console.error('Initialization error:', error);
+      }
     });
   </script>
 </body>
