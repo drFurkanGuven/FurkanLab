@@ -1537,14 +1537,15 @@
         }
       });
 
-      network.on('hoverNode', function(params) {
-        if (params.nodes.length > 0) {
-          const nodeId = params.nodes[0];
-          const node = nodes.get(nodeId);
-          const cursor = node.type === 'cranial_nerve' || node.type === 'peripheral_nerve' || node.type === 'spinal_segment' ? 'pointer' : 'default';
-          network.canvas.body.container.style.cursor = cursor;
-        }
-      });
+      // YENİ HALİ (Çözüm)
+    network.on('hoverNode', function(params) {
+      if (params.node) { // Sadece params.node kullanıyoruz
+        const nodeId = params.node;
+        const node = nodes.get(nodeId);
+        const cursor = (node.type === 'cranial_nerve' || node.type === 'peripheral_nerve' || node.type === 'spinal_segment') ? 'pointer' : 'default';
+        network.canvas.body.container.style.cursor = cursor;
+  }
+});
 
       network.on('blurNode', function() {
         network.canvas.body.container.style.cursor = 'default';
@@ -1813,9 +1814,8 @@
         brainNodes.push(neuroAnatomyData.brain[structureId].id);
       });
       
-      network.focus({
+      network.fit({
         nodes: brainNodes,
-        scale: 1.5,
         animation: {
           duration: 1000,
           easingFunction: 'easeInOutQuad'
@@ -1829,9 +1829,8 @@
         spinalNodes.push(neuroAnatomyData.spinal_cord[structureId].id);
       });
       
-      network.focus({
+      network.fit({
         nodes: spinalNodes,
-        scale: 1.5,
         animation: {
           duration: 1000,
           easingFunction: 'easeInOutQuad'
@@ -1845,9 +1844,8 @@
         cranialNodes.push(neuroAnatomyData.cranial_nerves[structureId].id);
       });
       
-      network.focus({
+      network.fit({
         nodes: cranialNodes,
-        scale: 1.5,
         animation: {
           duration: 1000,
           easingFunction: 'easeInOutQuad'
