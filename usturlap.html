@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Klasik metodoloji ile modern diferansiyel trigonometrinin buluştuğu Dijital Usturlap." />
+  <title>Dijital Usturlap | FurkanLab</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Usturlap sayfasına özel ufak estetik dokunuşlar */
+    .usturlap-container {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(51, 65, 85, 0.8);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin-top: 3rem;
+      backdrop-filter: blur(10px);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .data-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px dashed #475569;
+      padding: 1.2rem 0;
+    }
+    .data-row:last-child { border-bottom: none; }
+    .gok-cismi { color: #f59e0b; font-weight: bold; font-size: 1.3rem; letter-spacing: 1px;}
+    .osmanlica-terim { color: #38bdf8; font-size: 0.85rem; margin-bottom: 0.4rem; display: block; text-transform: uppercase; letter-spacing: 0.5px;}
+    .bilimsel-veri { font-size: 1.2rem; color: #f8fafc; }
+    .koordinat-grubu { text-align: right; }
+  </style>
+</head>
+<body>
+  <div class="scroll-progress"></div>
+
+  <div class="container">
+    <header>
+      <div class="nav-wrapper">
+        <a href="index.html" class="logo">F. Güven</a>
+        <nav aria-label="Ana navigasyon">
+          <ul>
+            <li><a href="makaleler.html">/makaleler</a></li>
+            <li><a href="laboratuvar.html">/laboratuvar</a></li>
+            <li><a href="kitap-kulubu/">/kitap-kulübü</a></li>
+            <li><a href="kuran-analiz-v2/">/kök-analiz</a></li>
+            <li><a href="hadis-arama.html">/hadis</a></li>
+            <li><a href="usturlap.html" style="color: #f59e0b;">/usturlap</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero fade-in">
+      <h1>Dijital Usturlap</h1>
+      <p>
+        Gerçek zamanlı efemeris hesaplamaları ile gök cisimlerinin bulunduğunuz konuma göre anlık durumları. 
+        Klasik rasathane metodolojisi, modern diferansiyel matrislerle silikon üzerinde yeniden hayat buluyor.
+      </p>
+    </section>
+
+    <div class="usturlap-container fade-in" id="usturlap-ekrani">
+      <p style="text-align: center; color: #94a3b8; font-size: 1.1rem; animation: pulse 2s infinite;">
+        🔭 Arz (Enlem) ve Tul (Boylam) verileri hesaplanarak rasat başlatılıyor...
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/cosinekitty/astronomy/source/js/astronomy.js"></script>
+  <script src="js/usturlap.js"></script>
+</body>
+</html>
