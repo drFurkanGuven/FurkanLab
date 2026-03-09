@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nöro-Mekanik Lezyon Simülatörü: Adale ve Asab</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Vis.js Network -->
+  <script src="https://unpkg.com/vis-network@latest/standalone/umd/vis-network.min.js"></script>
+  
+  <style>
+    /* ── CYBER-MEDICAL THEME ── */
+    :root {
+      --bg-primary: #0a0e27;
+      --bg-secondary: #151932;
+      --bg-tertiary: #1e2139;
+      --neural-primary: #00ff88;
+      --neural-secondary: #00d4ff;
+      --neural-accent: #ff00ff;
+      --lesion-color: #ff3366;
+      --inactive-color: #4a5568;
+      --text-primary: #e2e8f0;
+      --text-secondary: #a0aec0;
+      --text-muted: #718096;
+      --border-color: #2d3748;
+      --glow-intensity: 0 0 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: rgba(10, 14, 39, 0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.5rem 2rem;
+      position: relative;
+      z-index: 100;
+    }
+
+    .header-content {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--neural-primary);
+      text-shadow: var(--glow-intensity) var(--neural-primary);
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-top: 0.25rem;
+    }
+
+    .status-indicators {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .status-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    .status-dot.normal { background: var(--neural-primary); }
+    .status-dot.lesion { background: var(--lesion-color); }
+    .status-dot.inactive { background: var(--inactive-color); }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    /* ── MAIN CONTAINER ── */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 2rem;
+      height: calc(100vh - 120px);
+    }
+
+    /* ── NETWORK CONTAINER ── */
+    .network-container {
+      background: rgba(21, 25, 50, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 40px rgba(0, 255, 136, 0.1);
+    }
+
+    #network {
+      width: 100%;
+      height: 100%;
+    }
+
+    .network-overlay {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: rgba(10, 14, 39, 0.8);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      max-width: 200px;
+    }
+
+    /* ── INFO PANEL ── */
+    .info-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .panel-card {
+      background: rgba(21, 25, 50, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .panel-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--neural-secondary);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .nerve-info {
+      display: none;
+    }
+
+    .nerve-info.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .nerve-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .nerve-status {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .nerve-status.normal {
+      background: rgba(0, 255, 136, 0.2);
+      color: var(--neural-primary);
+      border: 1px solid var(--neural-primary);
+    }
+
+    .nerve-status.lesioned {
+      background: rgba(255, 51, 102, 0.2);
+      color: var(--lesion-color);
+      border: 1px solid var(--lesion-color);
+    }
+
+    .muscle-list {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    .muscle-item {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .muscle-item:last-child {
+      border-bottom: none;
+    }
+
+    .muscle-status {
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+    }
+
+    .muscle-status.active {
+      background: rgba(0, 255, 136, 0.2);
+      color: var(--neural-primary);
+    }
+
+    .muscle-status.inactive {
+      background: rgba(74, 85, 104, 0.3);
+      color: var(--inactive-color);
+    }
+
+    .clinical-syndrome {
+      background: rgba(0, 212, 255, 0.1);
+      border: 1px solid var(--neural-secondary);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+
+    .clinical-syndrome h4 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      color: var(--neural-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .clinical-syndrome p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ── CONTROLS ── */
+    .controls {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      background: rgba(0, 255, 136, 0.1);
+      border: 1px solid var(--neural-primary);
+      border-radius: 8px;
+      color: var(--neural-primary);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: rgba(0, 255, 136, 0.2);
+      box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    /* ── LEGEND ── */
+    .legend {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid var(--border-color);
+    }
+
+    .legend-color.nerve { background: var(--neural-primary); }
+    .legend-color.muscle { background: var(--neural-secondary); }
+    .legend-color.lesioned { background: var(--lesion-color); }
+    .legend-color.inactive { background: var(--inactive-color); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .container {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+
+      .network-container {
+        height: 500px;
+      }
+
+      .info-panel {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .header-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .info-panel {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div>
+        <h1 class="title">Nöro-Mekanik Lezyon Simülatörü</h1>
+        <p class="subtitle">Adale ve Asab: Üst Ekstremite Nörolojik Ağ Analizi</p>
+      </div>
+      <div class="status-indicators">
+        <div class="status-item">
+          <div class="status-dot normal"></div>
+          <span>Normal</span>
+        </div>
+        <div class="status-item">
+          <div class="status-dot lesion"></div>
+          <span>Lezyon</span>
+        </div>
+        <div class="status-item">
+          <div class="status-dot inactive"></div>
+          <span>İnaktif</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="network-container">
+      <div id="network"></div>
+      <div class="network-overlay">
+        <p><strong>Simülatör Kontrolleri:</strong></p>
+        <p>• Sinir düğümüne tıkla → Lezyon oluştur</p>
+        <p>• Kas durumunu izle → İnnervasyon paterni</p>
+        <p>• Klinik sendromları gör → Patofizyoloji</p>
+      </div>
+    </div>
+
+    <div class="info-panel">
+      <div class="panel-card">
+        <h3 class="panel-title">Sinir Bilgisi</h3>
+        <div id="nerveInfo" class="nerve-info">
+          <div class="nerve-name" id="nerveName">--</div>
+          <div class="nerve-status normal" id="nerveStatus">Normal</div>
+          <p id="nerveDescription">Lütfen ağdaki bir sinir düğümüne tıklayın.</p>
+          
+          <h4 style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-secondary);">İnervasyon Edilen Kaslar:</h4>
+          <ul class="muscle-list" id="muscleList"></ul>
+          
+          <div class="clinical-syndrome" id="clinicalSyndrome" style="display: none;">
+            <h4>Klinik Tablo</h4>
+            <p id="syndromeDescription"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <h3 class="panel-title">Kontroller</h3>
+        <div class="controls">
+          <button class="btn" onclick="resetSimulation()">Sıfırla</button>
+          <button class="btn" onclick="randomLesion()">Rastgele Lezyon</button>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <h3 class="panel-title">Lejant</h3>
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-color nerve"></div>
+            <span>Sinir</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color muscle"></div>
+            <span>Kas</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color lesioned"></div>
+            <span>Hasarlı</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color inactive"></div>
+            <span>İnaktif</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // ── NÖROLOJİK VERİ TABANI ──
+    const neuroData = {
+      nerves: [
+        {
+          id: 'c5',
+          label: 'C5',
+          type: 'nerve',
+          description: 'Servikal 5. spinal sinir kökü',
+          muscles: ['deltoid', 'supraspinatus'],
+          clinical: 'Omuz abduksiyonu zayıflığı',
+          level: 'root'
+        },
+        {
+          id: 'c6',
+          label: 'C6',
+          type: 'nerve',
+          description: 'Servikal 6. spinal sinir kökü',
+          muscles: ['biceps', 'brachioradialis', 'supinator'],
+          clinical: 'El bileği fleksiyonu ve supinasyon zayıflığı',
+          level: 'root'
+        },
+        {
+          id: 'c7',
+          label: 'C7',
+          type: 'nerve',
+          description: 'Servikal 7. spinal sinir kökü',
+          muscles: ['triceps', 'extensor_carpi_radialis'],
+          clinical: 'El bileği ekstansiyonu zayıflığı',
+          level: 'root'
+        },
+        {
+          id: 'c8',
+          label: 'C8',
+          type: 'nerve',
+          description: 'Servikal 8. spinal sinir kökü',
+          muscles: ['flexor_digitorum', 'extensor_digitorum'],
+          clinical: 'Parmak fleksiyonu/ekstansiyonu zayıflığı',
+          level: 'root'
+        },
+        {
+          id: 't1',
+          label: 'T1',
+          type: 'nerve',
+          description: 'Torakal 1. spinal sinir kökü',
+          muscles: ['interossei', 'flexor_pollicis'],
+          clinical: 'İnterosseöz kas zayıflığı',
+          level: 'root'
+        },
+        {
+          id: 'plexus_brachialis',
+          label: 'Plexus Brachialis',
+          type: 'nerve',
+          description: 'Kol pleksusu: C5-T1 sinir köklerinin birleşimi',
+          muscles: [],
+          clinical: 'Plejopati: Kolda geniş alanlı duyu ve motor kaybı',
+          level: 'plexus'
+        },
+        {
+          id: 'n_axillaris',
+          label: 'N. Axillaris',
+          type: 'nerve',
+          description: 'Koltuk altı siniri: C5-C6 köklerinden',
+          muscles: ['deltoid', 'teres_minor'],
+          clinical: 'Omuz abduksiyonu ve dış rotasyon zayıflığı',
+          level: 'peripheral'
+        },
+        {
+          id: 'n_musculocutaneus',
+          label: 'N. Musculocutaneus',
+          type: 'nerve',
+          description: 'Kas-kütane siniri: C5-C7 köklerinden',
+          muscles: ['biceps', 'brachialis', 'coracobrachialis'],
+          clinical: 'El bileği fleksiyonu ve supinasyon zayıflığı',
+          level: 'peripheral'
+        },
+        {
+          id: 'n_radialis',
+          label: 'N. Radialis',
+          type: 'nerve',
+          description: 'Radius siniri: C5-T1 köklerinden',
+          muscles: ['triceps', 'brachioradialis', 'extensor_carpi_radialis', 'extensor_digitorum'],
+          clinical: 'Düşük el (wrist drop) ve parmak ekstansiyonu zayıflığı',
+          level: 'peripheral'
+        },
+        {
+          id: 'n_medianus',
+          label: 'N. Medianus',
+          type: 'nerve',
+          description: 'Median sinir: C5-T1 köklerinden',
+          muscles: ['flexor_carpi_radialis', 'flexor_digitorum', 'flexor_pollicis', 'pronator_teres'],
+          clinical: 'Maymun el deformitesi ve thenar atrofisi',
+          level: 'peripheral'
+        },
+        {
+          id: 'n_ulnaris',
+          label: 'N. Ulnaris',
+          type: 'nerve',
+          description: 'Ulnar sinir: C8-T1 köklerinden',
+          muscles: ['flexor_carpi_ulnaris', 'interossei', 'adductor_pollicis'],
+          clinical: 'Pençe el (claw hand) ve interosseoz atrofi',
+          level: 'peripheral'
+        }
+      ],
+      muscles: [
+        { id: 'deltoid', label: 'M. Deltoideus', description: 'Omuz abduksiyonu' },
+        { id: 'supraspinatus', label: 'M. Supraspinatus', description: 'Omuz abduksiyonu başlangıcı' },
+        { id: 'biceps', label: 'M. Biceps Brachii', description: 'El bileği fleksiyonu ve supinasyon' },
+        { id: 'brachialis', label: 'M. Brachialis', description: 'El bileği fleksiyonu' },
+        { id: 'brachioradialis', label: 'M. Brachioradialis', description: 'El bileği fleksiyonu' },
+        { id: 'triceps', label: 'M. Triceps Brachii', description: 'El bileği ekstansiyonu' },
+        { id: 'extensor_carpi_radialis', label: 'M. Extensor Carpi Radialis', description: 'El bileği ekstansiyonu' },
+        { id: 'flexor_carpi_radialis', label: 'M. Flexor Carpi Radialis', description: 'El bileği fleksiyonu' },
+        { id: 'flexor_carpi_ulnaris', label: 'M. Flexor Carpi Ulnaris', description: 'El bileği fleksiyonu ve ulnar deviyasyon' },
+        { id: 'extensor_digitorum', label: 'M. Extensor Digitorum', description: 'Parmak ekstansiyonu' },
+        { id: 'flexor_digitorum', label: 'M. Flexor Digitorum', description: 'Parmak fleksiyonu' },
+        { id: 'flexor_pollicis', label: 'M. Flexor Pollicis Longus', description: 'Başparmak fleksiyonu' },
+        { id: 'adductor_pollicis', label: 'M. Adductor Pollicis', description: 'Başparmak adduksiyonu' },
+        { id: 'interossei', label: 'Mm. Interossei', description: 'Parmak abdüksiyonu/adduksiyonu' },
+        { id: 'supinator', label: 'M. Supinator', description: 'Ön kol supinasyonu' },
+        { id: 'pronator_teres', label: 'M. Pronator Teres', description: 'Ön kol pronasyonu' },
+        { id: 'coracobrachialis', label: 'M. Coracobrachialis', description: 'Omuz fleksiyonu' },
+        { id: 'teres_minor', label: 'M. Teres Minor', description: 'Omuz dış rotasyonu' }
+      ]
+    };
+
+    // ── AĞ YAPISI OLUŞTURMA ──
+    let network;
+    let nodes;
+    let edges;
+    let currentLesion = null;
+
+    function initializeNetwork() {
+      // Düğümleri oluştur
+      const allNodes = [];
+      
+      // Sinir kökleri
+      neuroData.nerves.forEach(nerve => {
+        allNodes.push({
+          id: nerve.id,
+          label: nerve.label,
+          type: nerve.type,
+          description: nerve.description,
+          muscles: nerve.muscles,
+          clinical: nerve.clinical,
+          level: nerve.level,
+          status: 'normal',
+          color: {
+            background: nerve.level === 'root' ? '#00ff88' : 
+                      nerve.level === 'plexus' ? '#00d4ff' : '#ff00ff',
+            border: '#ffffff',
+            highlight: {
+              background: nerve.level === 'root' ? '#00ffaa' : 
+                        nerve.level === 'plexus' ? '#00ddff' : '#ff22ff',
+              border: '#ffffff'
+            }
+          },
+          font: {
+            color: '#ffffff',
+            size: nerve.level === 'plexus' ? 16 : 14,
+            face: 'JetBrains Mono'
+          },
+          size: nerve.level === 'plexus' ? 35 : 25,
+          shape: nerve.level === 'plexus' ? 'diamond' : 'dot',
+          borderWidth: 2,
+          shadow: {
+            enabled: true,
+            color: nerve.level === 'root' ? '#00ff88' : 
+                   nerve.level === 'plexus' ? '#00d4ff' : '#ff00ff',
+            size: 10,
+            x: 0,
+            y: 0
+          }
+        });
+      });
+
+      // Kaslar
+      neuroData.muscles.forEach(muscle => {
+        allNodes.push({
+          id: muscle.id,
+          label: muscle.label,
+          type: 'muscle',
+          description: muscle.description,
+          status: 'active',
+          color: {
+            background: '#00d4ff',
+            border: '#ffffff',
+            highlight: {
+              background: '#00ddff',
+              border: '#ffffff'
+            }
+          },
+          font: {
+            color: '#ffffff',
+            size: 12,
+            face: 'Inter'
+          },
+          size: 20,
+          shape: 'square',
+          borderWidth: 1,
+          shadow: {
+            enabled: true,
+            color: '#00d4ff',
+            size: 5,
+            x: 0,
+            y: 0
+          }
+        });
+      });
+
+      // Bağlantıları oluştur
+      const allEdges = [
+        // Sinir kökleri arası
+        { from: 'c5', to: 'plexus_brachialis', color: '#00ff88', width: 3 },
+        { from: 'c6', to: 'plexus_brachialis', color: '#00ff88', width: 3 },
+        { from: 'c7', to: 'plexus_brachialis', color: '#00ff88', width: 3 },
+        { from: 'c8', to: 'plexus_brachialis', color: '#00ff88', width: 3 },
+        { from: 't1', to: 'plexus_brachialis', color: '#00ff88', width: 3 },
+        
+        // Pleksustan periferik sinirlere
+        { from: 'plexus_brachialis', to: 'n_axillaris', color: '#00d4ff', width: 2 },
+        { from: 'plexus_brachialis', to: 'n_musculocutaneus', color: '#00d4ff', width: 2 },
+        { from: 'plexus_brachialis', to: 'n_radialis', color: '#00d4ff', width: 2 },
+        { from: 'plexus_brachialis', to: 'n_medianus', color: '#00d4ff', width: 2 },
+        { from: 'plexus_brachialis', to: 'n_ulnaris', color: '#00d4ff', width: 2 }
+      ];
+
+      // Sinirlerden kaslara bağlantılar
+      neuroData.nerves.forEach(nerve => {
+        nerve.muscles.forEach(muscleId => {
+          allEdges.push({
+            from: nerve.id,
+            to: muscleId,
+            color: '#ff00ff',
+            width: 1,
+            dashes: [5, 5]
+          });
+        });
+      });
+
+      nodes = new vis.DataSet(allNodes);
+      edges = new vis.DataSet(allEdges);
+
+      // Ağ yapılandırması
+      const container = document.getElementById('network');
+      const data = { nodes: nodes, edges: edges };
+      
+      const options = {
+        physics: {
+          enabled: true,
+          barnesHut: {
+            gravitationalConstant: -2000,
+            centralGravity: 0.3,
+            springLength: 120,
+            springConstant: 0.04,
+            damping: 0.09
+          }
+        },
+        interaction: {
+          hover: true,
+          tooltipDelay: 200,
+          dragNodes: true,
+          dragView: true,
+          zoomView: true
+        },
+        layout: {
+          improvedLayout: true
+        },
+        nodes: {
+          scaling: {
+            min: 20,
+            max: 40
+          }
+        },
+        edges: {
+          scaling: {
+            min: 1,
+            max: 3
+          },
+          smooth: {
+            type: 'continuous',
+            roundness: 0.5
+          }
+        }
+      };
+
+      network = new vis.Network(container, data, options);
+
+      // Olay dinleyicileri
+      network.on('click', function(params) {
+        if (params.nodes.length > 0) {
+          const nodeId = params.nodes[0];
+          const node = nodes.get(nodeId);
+          
+          if (node.type === 'nerve') {
+            toggleLesion(nodeId);
+          }
+        }
+      });
+
+      network.on('hoverNode', function(params) {
+        if (params.nodes.length > 0) {
+          const nodeId = params.nodes[0];
+          const node = nodes.get(nodeId);
+          network.canvas.body.container.style.cursor = node.type === 'nerve' ? 'pointer' : 'default';
+        }
+      });
+
+      network.on('blurNode', function() {
+        network.canvas.body.container.style.cursor = 'default';
+      });
+    }
+
+    // ── LEZYON MEKANİZMASI ──
+    function toggleLesion(nerveId) {
+      const nerve = nodes.get(nerveId);
+      
+      if (nerve.status === 'normal') {
+        // Önceki lezyonu temizle
+        if (currentLesion) {
+          clearLesion(currentLesion);
+        }
+        
+        // Yeni lezyon oluştur
+        currentLesion = nerveId;
+        createLesion(nerveId);
+      } else {
+        clearLesion(nerveId);
+        currentLesion = null;
+      }
+      
+      updateNerveInfo(nerveId);
+    }
+
+    function createLesion(nerveId) {
+      // Siniri hasarlı yap
+      nodes.update({
+        id: nerveId,
+        status: 'lesioned',
+        color: {
+          background: '#ff3366',
+          border: '#ffffff',
+          highlight: {
+            background: '#ff4477',
+            border: '#ffffff'
+          }
+        },
+        shadow: {
+          enabled: true,
+          color: '#ff3366',
+          size: 15
+        }
+      });
+
+      // Bağlı kasları inaktif yap
+      const nerve = neuroData.nerves.find(n => n.id === nerveId);
+      if (nerve) {
+        nerve.muscles.forEach(muscleId => {
+          nodes.update({
+            id: muscleId,
+            status: 'inactive',
+            color: {
+              background: '#4a5568',
+              border: '#718096',
+              highlight: {
+                background: '#5a6578',
+                border: '#819096'
+              }
+            },
+            shadow: {
+              enabled: false
+            }
+          });
+        });
+      }
+    }
+
+    function clearLesion(nerveId) {
+      const nerve = neuroData.nerves.find(n => n.id === nerveId);
+      const originalColor = nerve.level === 'root' ? '#00ff88' : 
+                           nerve.level === 'plexus' ? '#00d4ff' : '#ff00ff';
+      
+      // Siniri normale döndür
+      nodes.update({
+        id: nerveId,
+        status: 'normal',
+        color: {
+          background: originalColor,
+          border: '#ffffff',
+          highlight: {
+            background: originalColor,
+            border: '#ffffff'
+          }
+        },
+        shadow: {
+          enabled: true,
+          color: originalColor,
+          size: 10
+        }
+      });
+
+      // Bağlı kasları aktif yap
+      if (nerve) {
+        nerve.muscles.forEach(muscleId => {
+          nodes.update({
+            id: muscleId,
+            status: 'active',
+            color: {
+              background: '#00d4ff',
+              border: '#ffffff',
+              highlight: {
+                background: '#00ddff',
+                border: '#ffffff'
+              }
+            },
+            shadow: {
+              enabled: true,
+              color: '#00d4ff',
+              size: 5
+            }
+          });
+        });
+      }
+    }
+
+    // ── BİLGİ PANELİ GÜNCELLEME ──
+    function updateNerveInfo(nerveId) {
+      const nerve = neuroData.nerves.find(n => n.id === nerveId);
+      const nerveNode = nodes.get(nerveId);
+      
+      document.getElementById('nerveInfo').classList.add('active');
+      document.getElementById('nerveName').textContent = nerve.label;
+      document.getElementById('nerveDescription').textContent = nerve.description;
+      
+      const statusElement = document.getElementById('nerveStatus');
+      if (nerveNode.status === 'lesioned') {
+        statusElement.textContent = 'Lezyonlu';
+        statusElement.className = 'nerve-status lesioned';
+        document.getElementById('clinicalSyndrome').style.display = 'block';
+        document.getElementById('syndromeDescription').textContent = nerve.clinical;
+      } else {
+        statusElement.textContent = 'Normal';
+        statusElement.className = 'nerve-status normal';
+        document.getElementById('clinicalSyndrome').style.display = 'none';
+      }
+      
+      // Kas listesini güncelle
+      const muscleList = document.getElementById('muscleList');
+      muscleList.innerHTML = '';
+      
+      nerve.muscles.forEach(muscleId => {
+        const muscle = neuroData.muscles.find(m => m.id === muscleId);
+        const muscleNode = nodes.get(muscleId);
+        const li = document.createElement('li');
+        li.className = 'muscle-item';
+        li.innerHTML = `
+          <span>${muscle.label}</span>
+          <span class="muscle-status ${muscleNode.status}">${
+            muscleNode.status === 'active' ? 'Aktif' : 'İnaktif'
+          }</span>
+        `;
+        muscleList.appendChild(li);
+      });
+    }
+
+    // ── KONTROL FONKSİYONLARI ──
+    function resetSimulation() {
+      // Tüm lezyonları temizle
+      nodes.forEach(node => {
+        if (node.status === 'lesioned') {
+          clearLesion(node.id);
+        }
+      });
+      
+      currentLesion = null;
+      document.getElementById('nerveInfo').classList.remove('active');
+    }
+
+    function randomLesion() {
+      // Rastgele bir sinir seç
+      const peripheralNerves = neuroData.nerves.filter(n => n.level === 'peripheral');
+      const randomNerve = peripheralNerves[Math.floor(Math.random() * peripheralNerves.length)];
+      
+      // Önceki lezyonu temizle
+      if (currentLesion) {
+        clearLesion(currentLesion);
+      }
+      
+      // Yeni lezyon oluştur
+      currentLesion = randomNerve.id;
+      createLesion(randomNerve.id);
+      updateNerveInfo(randomNerve.id);
+    }
+
+    // ── BAŞLATMA ──
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeNetwork();
+    });
+  </script>
+</body>
+</html>
