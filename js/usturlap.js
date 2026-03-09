@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ekran = document.getElementById('usturlap-ekrani');
 
     // Tarayıcıdan lokasyon istiyoruz. 
-    // Kullanıcı izin vermezse diye harika bir yedek plan: Elazığ koordinatları!
+    // İzin verilmezse yedek plan devrede.
     const varsayilanArz = 38.6748; 
     const varsayilanTul = 39.2225;
 
@@ -27,9 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function guncelle(arz, tul) {
         const simdi = new Date();
         
-        // Astronomy Engine ile anlık ufuk koordinatlarını (Altitude & Azimuth) hesaplıyoruz
-        const semsUfuk = Astronomy.Horizon(simdi, undefined, arz, tul, 'Sun');
-        const kamerUfuk = Astronomy.Horizon(simdi, undefined, arz, tul, 'Moon');
+        // 1. Rasat noktamızı (Observer) kütüphanenin istediği nizamda tanımlıyoruz: Enlem, Boylam, Rakım (0 metre)
+        const rasid = new Astronomy.Observer(arz, tul, 0);
+        
+        // 2. Önce gök cisimlerinin Ekvatoryal (Equator) koordinatlarını alıyoruz
+        const semsEkvator = Astronomy.Equator('Sun', simdi, rasid, true, true);
+        const kamerEkvator = Astronomy.Equator('Moon', simdi, rasid, true, true);
+
+        // 3. Ekvatoryal koordinatları nihayet Ufuk (Horizon) koordinatlarına çeviriyoruz
+        const semsUfuk = Astronomy.Horizon(simdi, rasid, semsEkvator.ra, semsEkvator.dec, 'normal');
+        const kamerUfuk = Astronomy.Horizon(simdi, rasid, kamerEkvator.ra, kamerEkvator.dec, 'normal');
 
         ekran.innerHTML = `
             <div style="margin-bottom: 2.5rem; text-align: center; border-bottom: 1px solid rgba(51, 65, 85, 0.8); padding-bottom: 1.5rem;">
