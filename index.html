@@ -52,49 +52,24 @@
       </div>
     </section>
 
-    <!-- YENİ DUYURU: Laboratuvar Simülatörleri -->
-    <div class="card fade-in" style="background: linear-gradient(135deg, rgba(74,144,226,0.08) 0%, rgba(0,255,136,0.05) 100%); border-left: 4px solid #4a90e2; margin-bottom: 3rem; padding: 2rem;">
-      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.2rem;">
-        <span style="font-size: 2rem;">🧪</span>
-        <h3 style="color: #4a90e2; margin: 0; font-size: 1.4rem;">Yeni: İnteraktif Laboratuvar Simülatörleri Yayında</h3>
-      </div>
-      <p style="margin-bottom: 1.5rem; color: #e0e0e0; line-height: 1.7;">
-        Teorik çalışmaların pratiğe dönüştüğü üç yeni web tabanlı araç laboratuvara eklendi. 
-        Tarayıcınızda doğrudan çalışan, gerçek zamanlı hesaplama ve görselleştirme araçları:
-      </p>
+    <!-- Laboratuvar Duyurusu -->
+    <div class="card fade-in lab-announcement">
+      <h3>🧪 Yeni Laboratuvar Araçları</h3>
+      <p>İnteraktif simülatörler laboratuvara eklendi:</p>
       
-      <div style="display: grid; gap: 1.2rem; margin-top: 1.5rem;">
-        <div style="background: rgba(74,144,226,0.1); padding: 1.2rem; border-radius: 8px; border-left: 3px solid #4a90e2;">
-          <div style="font-family: 'JetBrains Mono', monospace; color: #4a90e2; font-weight: 600; margin-bottom: 0.5rem; font-size: 1.1rem;">
-            → /fourier
-          </div>
-          <p style="margin: 0; color: #d0d0d0; font-size: 0.95rem;">
-            Gerçek zamanlı Fourier dönüşümü ve sinyal analizi. DFT spektrum görselleştirmesi, özel dalga biçimi tasarımı ve filtre simülasyonu.
-          </p>
+      <div class="lab-tools">
+        <div class="tool-item">
+          <strong>/fourier</strong> - Gerçek zamanlı Fourier dönüşümü ve sinyal analizi
         </div>
-
-        <div style="background: rgba(0,255,136,0.1); padding: 1.2rem; border-radius: 8px; border-left: 3px solid #00ff88;">
-          <div style="font-family: 'JetBrains Mono', monospace; color: #00ff88; font-weight: 600; margin-bottom: 0.5rem; font-size: 1.1rem;">
-            → /nöron-sim
-          </div>
-          <p style="margin: 0; color: #d0d0d0; font-size: 0.95rem;">
-            Leaky Integrate-and-Fire (LIF) nöron modeli simülatörü. Biyolojik aksiyon potansiyeli davranışının FPGA/VHDL sentezine hazırlık aracı.
-          </p>
+        <div class="tool-item">
+          <strong>/nöron-sim</strong> - LIF nöron modeli simülatörü
         </div>
-
-        <div style="background: rgba(240,165,0,0.1); padding: 1.2rem; border-radius: 8px; border-left: 3px solid #f0a500;">
-          <div style="font-family: 'JetBrains Mono', monospace; color: #f0a500; font-weight: 600; margin-bottom: 0.5rem; font-size: 1.1rem;">
-            → /usturlap
-          </div>
-          <p style="margin: 0; color: #d0d0d0; font-size: 0.95rem;">
-            Dijital usturlap: Konum tabanlı gerçek zamanlı Güneş ve Ay efemeris hesaplamaları (altitude/azimuth). Astronomy Engine kütüphanesi ile.
-          </p>
+        <div class="tool-item">
+          <strong>/usturlap</strong> - Dijital usturlap ve gök cismi hesaplamaları
         </div>
       </div>
 
-      <div style="margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid rgba(74,144,226,0.2); color: #a0a0a0; font-size: 0.9rem;">
-        <strong>Not:</strong> Tüm araçlar tamamen tarayıcı tabanlı çalışır, backend gerektirmez. Kaynak kodları ve detaylı dokümantasyon için /laboratuvar sayfasını ziyaret edin.
-      </div>
+      <p class="note">Tüm araçlar tarayıcı tabanlı çalışır. Detaylar için /laboratuvar sayfasını ziyaret edin.</p>
     </div>
 
     <h2 class="section-title fade-in">Çalışma Alanları</h2>
