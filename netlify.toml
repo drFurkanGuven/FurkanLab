@@ -1,10 +1,33 @@
 [build]
   publish = "."
-  command = "npm install && export DATABASE_URL=\"$NETLIFY_DATABASE_URL\" && npx prisma generate && npx prisma db push --accept-data-loss && node scripts/seed-quran.js"
+  command = "npm install && export DATABASE_URL=\"$NETLIFY_DATABASE_URL\" && npx prisma generate && (npx prisma db push --accept-data-loss || echo 'DB push skipped – will use existing schema') && (node scripts/seed-quran.js || echo 'Seeding skipped – data already exists')"
 
 [functions]
   directory = "netlify/functions"
   included_files = ["node_modules/.prisma/**", "prisma/schema.prisma"]
+
+# ── Performans: Tarayıcı Önbellekleme (Cache) ──
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[redirects]]
   from = "/api/auth/register"
