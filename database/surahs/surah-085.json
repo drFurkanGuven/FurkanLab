@@ -1,0 +1,141 @@
+{
+  "id": 85,
+  "name": "البروج",
+  "transliteration": "Al-Buruj",
+  "type": "meccan",
+  "total_verses": 22,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ",
+      "turkishMeal": "İçinde burçları bulunan göğe and olsun",
+      "transliteration": "Wassamaaa'i zaatil burooj"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ",
+      "turkishMeal": "Söz verilen kıyamet gününe and olsun",
+      "transliteration": "Wal yawmil maw'ood"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَشَاهِدٖ وَمَشۡهُودٖ",
+      "turkishMeal": "Şahitlik edene ve edilene and olsun ki, insanlar öldükten sonra diriltileceklerdir",
+      "transliteration": "Wa shaahidinw wa mashhood"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "قُتِلَ أَصۡحَٰبُ ٱلۡأُخۡدُودِ",
+      "turkishMeal": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur",
+      "transliteration": "Qutila as haabul ukhdood"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
+      "turkishMeal": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur",
+      "transliteration": "Annaari zaatil waqood"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "إِذۡ هُمۡ عَلَيۡهَا قُعُودٞ",
+      "turkishMeal": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur",
+      "transliteration": "Iz hum 'alaihaa qu'ood"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "وَهُمۡ عَلَىٰ مَا يَفۡعَلُونَ بِٱلۡمُؤۡمِنِينَ شُهُودٞ",
+      "turkishMeal": "Hazırladıkları hendekleri, tutuşturulmuş ateşle doldurarak onun çevresinde oturup, inanmış kimselere dinlerinden dönmeleri için yaptıkları işkenceleri seyredenler kahrolmuştur",
+      "transliteration": "Wa hum 'alaa maa yaf'aloona bilmu 'mineena shuhood"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَمَا نَقَمُواْ مِنۡهُمۡ إِلَّآ أَن يُؤۡمِنُواْ بِٱللَّهِ ٱلۡعَزِيزِ ٱلۡحَمِيدِ",
+      "turkishMeal": "Bu inkarcıların, inananlara kızmaları; onların sadece, göklerin ve yerin hükümranlığı kendisinin bulunan ve övülmeğe layık ve güçlü olan Allah'a inanmış olmalarındandı. Allah her şeye şahiddir",
+      "transliteration": "Wa maa naqamoo minhum illaaa aiyu'minoo billaahil 'azeezil Hameed"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
+      "turkishMeal": "Bu inkarcıların, inananlara kızmaları; onların sadece, göklerin ve yerin hükümranlığı kendisinin bulunan ve övülmeğe layık ve güçlü olan Allah'a inanmış olmalarındandı. Allah her şeye şahiddir",
+      "transliteration": "Allazee lahoo mulkus samaawaati wal ard; wallaahu 'alaa kulli shai 'in Shaheed"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "إِنَّ ٱلَّذِينَ فَتَنُواْ ٱلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِ ثُمَّ لَمۡ يَتُوبُواْ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِيقِ",
+      "turkishMeal": "Ama inanmış erkek ve kadınlara işkence ederek onları dinlerinden çevirmeğe uğraşanlar, eğer tevbe etmezlerse, onlara cehennem azabı vardır. Yakıcı azap da onlaradır",
+      "transliteration": "Innal lazeena fatanul mu'mineena wal mu'minaati summa lam yatooboo falahum 'azaabu Jahannama wa lahum 'azaabul hareeq"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُمۡ جَنَّـٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِيرُ",
+      "turkishMeal": "Şüphesiz inanıp yararlı işler işleyenlere, onlara, içlerinden ırmaklar akan cennetler vardır. Bu, büyük kurtuluştur",
+      "transliteration": "Innal lazeena aamanoo wa 'amilus saalihaati lahum Jannaatun tajree min tahtihal anhaar; zaalikal fawzul kabeer"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِيدٌ",
+      "turkishMeal": "Doğrusu Rabbinin yakalaması amansızdır",
+      "transliteration": "Inna batsha Rabbika lashadeed"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "إِنَّهُۥ هُوَ يُبۡدِئُ وَيُعِيدُ",
+      "turkishMeal": "Önce yaratıp sonra bunu tekrar eden O'dur",
+      "transliteration": "Innahoo Huwa yubdi'u wa yu'eed"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
+      "turkishMeal": "Yüce arşın sahibi, çok seven, bağışlayan O'dur",
+      "transliteration": "Wa Huwal Ghafoorul Wadood"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِيدُ",
+      "turkishMeal": "Yüce arşın sahibi, çok seven, bağışlayan O'dur",
+      "transliteration": "Zul 'Arshil Majeed"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "فَعَّالٞ لِّمَا يُرِيدُ",
+      "turkishMeal": "Her dilediğini mutlaka yapandır",
+      "transliteration": "Fa' 'aalul limaa yureed"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡجُنُودِ",
+      "turkishMeal": "Firavun ve Semud ordularının haberi sana geldi mi",
+      "transliteration": "Hal ataaka hadeesul junood"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "فِرۡعَوۡنَ وَثَمُودَ",
+      "turkishMeal": "Firavun ve Semud ordularının haberi sana geldi mi",
+      "transliteration": "Fir'awna wa Samood"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ",
+      "turkishMeal": "Doğrusu inkar edenler, hep yalanlayagelmişlerdir",
+      "transliteration": "Balil lazeena kafaroo fee takzeeb"
+    },
+    {
+      "ayahNo": 20,
+      "arabicText": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ",
+      "turkishMeal": "Oysa Allah onları ardlarından çevirmiştir",
+      "transliteration": "Wallaahu minw waraaa'ihim muheet"
+    },
+    {
+      "ayahNo": 21,
+      "arabicText": "بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ",
+      "turkishMeal": "Doğrusu sana vahyedilen bu Kitap, Levhi Mahfuz'da bulunan şanlı bir Kuran'dır",
+      "transliteration": "Bal huwa Quraanum Majeed"
+    },
+    {
+      "ayahNo": 22,
+      "arabicText": "فِي لَوۡحٖ مَّحۡفُوظِۭ",
+      "turkishMeal": "Doğrusu sana vahyedilen bu Kitap, Levhi Mahfuz'da bulunan şanlı bir Kuran'dır",
+      "transliteration": "Fee Lawhim Mahfooz"
+    }
+  ]
+}

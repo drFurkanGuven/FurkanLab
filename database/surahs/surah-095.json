@@ -1,0 +1,57 @@
+{
+  "id": 95,
+  "name": "التين",
+  "transliteration": "At-Tin",
+  "type": "meccan",
+  "total_verses": 8,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+      "turkishMeal": "İncir ve zeytine and olsun",
+      "transliteration": "Wat teeni waz zaitoon"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَطُورِ سِينِينَ",
+      "turkishMeal": "And olsun Sina dağına",
+      "transliteration": "Wa toori sineen"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+      "turkishMeal": "And olsun bu güvenli Mekke şehrine ki",
+      "transliteration": "Wa haazal balad-il ameen"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+      "turkishMeal": "Biz insanı en güzel şekilde yarattık",
+      "transliteration": "Laqad khalaqnal insaana fee ahsani taqweem"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+      "turkishMeal": "Sonra onu aşağıların en aşağısı kıldık",
+      "transliteration": "Thumma ra dad naahu asfala saafileen"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+      "turkishMeal": "Yalnız, inanıp yararlı iş işleyenler bunun dışındadır. Onlara kesintisiz ecir vardır",
+      "transliteration": "Ill-lal lazeena aamanoo wa 'amilus saalihaati; falahum ajrun ghairu mamnoon"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+      "turkishMeal": "Öyleyken, sana dini yalan saydırtan nedir",
+      "transliteration": "Fama yu kaz zibuka b'adu bid deen"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+      "turkishMeal": "Allah, hükmedenlerin en iyi hükmedeni değil midir",
+      "transliteration": "Alai sal laahu bi-ahkamil haakimeen"
+    }
+  ]
+}

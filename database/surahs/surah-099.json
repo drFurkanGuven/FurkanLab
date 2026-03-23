@@ -1,0 +1,57 @@
+{
+  "id": 99,
+  "name": "الزلزلة",
+  "transliteration": "Az-Zalzalah",
+  "type": "medinan",
+  "total_verses": 8,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
+      "turkishMeal": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman",
+      "transliteration": "Izaa zul zilatil ardu zil zaalaha"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
+      "turkishMeal": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman",
+      "transliteration": "Wa akh rajatil ardu athqaalaha"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَقَالَ ٱلۡإِنسَٰنُ مَا لَهَا",
+      "turkishMeal": "Yer dehşetle sarsıldıkça sarsıldığı, yeryüzü ağırlıklarını dışarıya çıkardığı ve insanın: \"Buna ne oluyor?\" dediği zaman",
+      "transliteration": "Wa qaalal insaanu ma laha"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "يَوۡمَئِذٖ تُحَدِّثُ أَخۡبَارَهَا",
+      "turkishMeal": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır",
+      "transliteration": "Yawmaa izin tuhad dithu akhbaaraha"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
+      "turkishMeal": "İşte o gün, yer, Rabbinin ona vahyetmesiyle kendi haberlerini anlatır",
+      "transliteration": "Bi-anna rabbaka awhaa laha"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+      "turkishMeal": "O gün insanlar işlerinin kendilerine gösterilmesi için bölük bölük dönerler",
+      "transliteration": "Yawma iziy yas durun naasu ash tatal liyuraw a'maalahum"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرٗا يَرَهُۥ",
+      "turkishMeal": "Kim zerre kadar iyilik yapmışsa onu görür",
+      "transliteration": "Famaiy ya'mal mithqala zarratin khai raiy-yarah"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٖ شَرّٗا يَرَهُۥ",
+      "turkishMeal": "Kim de zerre kadar kötülük yapmışsa onu görür",
+      "transliteration": "Wa maiy-y'amal mithqala zarratin sharraiy-yarah"
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": 22,
+  "name": "الحج",
+  "transliteration": "Al-Hajj",
+  "type": "medinan",
+  "total_verses": 78,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُواْ رَبَّكُمۡۚ إِنَّ زَلۡزَلَةَ ٱلسَّاعَةِ شَيۡءٌ عَظِيمٞ",
+      "turkishMeal": "Ey insanlar! Rabbinizden sakının; doğrusu kıyamet gününün sarsıntısı büyük şeydir",
+      "transliteration": "Yaaa ayyuhan naasuttaqoo Rabbakum; inna zalzalatas Saa'ati shai'un 'azeem"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "يَوۡمَ تَرَوۡنَهَا تَذۡهَلُ كُلُّ مُرۡضِعَةٍ عَمَّآ أَرۡضَعَتۡ وَتَضَعُ كُلُّ ذَاتِ حَمۡلٍ حَمۡلَهَا وَتَرَى ٱلنَّاسَ سُكَٰرَىٰ وَمَا هُم بِسُكَٰرَىٰ وَلَٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٞ",
+      "turkishMeal": "Kıyameti gören her emzikli kadın emzirdiğini unutur, her hamile kadın çocuğunu düşürür. İnsanları sarhoş gibi görürsün oysa sarhoş değildirler, fakat bu sadece Allah'ın azabının çetin olmasındandır",
+      "transliteration": "Yawma tarawnahaa tazhalu kullu murdi'atin 'ammaaa arda'at wa tada'u kullu zaati hamlin hamlahaa wa tarannaasa sukaaraa wa maa hum bisukaaraa wa lakinaa 'azaabal laahi shadeed"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِي ٱللَّهِ بِغَيۡرِ عِلۡمٖ وَيَتَّبِعُ كُلَّ شَيۡطَٰنٖ مَّرِيدٖ",
+      "turkishMeal": "Allah hakkında bilmeden taşıyan ve her azılı şeytana uyan insanlar vardır",
+      "transliteration": "Wa minan naasi mai yujaadilu fil laahi bighairi 'ilminw wa yattabi'u kullaa shaitaanim mareed"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "كُتِبَ عَلَيۡهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهۡدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
+      "turkishMeal": "Onun hakkında şöyle yazılmıştır: O kendisini dost edinen kimseyi saptırır ve alevli azaba götürür",
+      "transliteration": "Kutiba 'alaihi annahoo man tawallaahu fa annahoo yudil lauhoo wa yahdeehi ilaa 'azaabis sa'eer"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمۡ فِي رَيۡبٖ مِّنَ ٱلۡبَعۡثِ فَإِنَّا خَلَقۡنَٰكُم مِّن تُرَابٖ ثُمَّ مِن نُّطۡفَةٖ ثُمَّ مِنۡ عَلَقَةٖ ثُمَّ مِن مُّضۡغَةٖ مُّخَلَّقَةٖ وَغَيۡرِ مُخَلَّقَةٖ لِّنُبَيِّنَ لَكُمۡۚ وَنُقِرُّ فِي ٱلۡأَرۡحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٖ مُّسَمّٗى ثُمَّ نُخۡرِجُكُمۡ طِفۡلٗا ثُمَّ لِتَبۡلُغُوٓاْ أَشُدَّكُمۡۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرۡذَلِ ٱلۡعُمُرِ لِكَيۡلَا يَعۡلَمَ مِنۢ بَعۡدِ عِلۡمٖ شَيۡـٔٗاۚ وَتَرَى ٱلۡأَرۡضَ هَامِدَةٗ فَإِذَآ أَنزَلۡنَا عَلَيۡهَا ٱلۡمَآءَ ٱهۡتَزَّتۡ وَرَبَتۡ وَأَنۢبَتَتۡ مِن كُلِّ زَوۡجِۭ بَهِيجٖ",
+      "turkishMeal": "Ey insanlar! Öldükten sonra tekrar dirilmekten şüphede iseniz bilin ki, ne olduğunuzu size açıklamak için, Biz sizi topraktan sonra nutfeden, sonra pıhtılaşmış kandan, sonra da yapısı belli belirsiz bir çiğnem etten yaratmışızdır. Dilediğimizi belli bir süreye kadar rahimlerde tutarız; sonra sizi çocuk olarak çıkartırız, böylece yetişip erginlik çağına varırsınız. Kiminiz öldürülür, kiminiz de ömrünün en fena zamanına ulaştırılır ki, bilirken birşey bilmez olur. Yeryüzünü görürsün ki kupkurudur; fakat Biz ona su indirdiğimiz zaman harekete geçer, kabarır, her güzel bitkiden çift çift yetiştirir",
+      "transliteration": "Yaaa ayyuhan naasu in kuntum fee raibim minal ba'si fa innaa khalaqnaakum min turaabin summa min nutfatin summaa min 'alaqatin summa mim mud ghatim mukhal laqatinw wa ghairi mukhalla qatil linubaiyina lakum; wa nuqirru fil arhaami maa nashaaa'u ilaaa ajalim musam man summa nukhrijukum tiflan summa litablughooo ashud dakum wa minkum mai yutawaffa wa minkum mai yuraddu ilaaa arzalil 'umuri likailaa ya'lama mim ba'di 'ilmin shai'aa; wa taral arda haamidatan fa izaaa anzalnaa 'alaihal maaa'ah tazzat wa rabat wa ambatat min kulli zawjim baheej"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلۡحَقُّ وَأَنَّهُۥ يُحۡيِ ٱلۡمَوۡتَىٰ وَأَنَّهُۥ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+      "turkishMeal": "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir",
+      "transliteration": "Zaalika bi annal laaha Huwal haqqu wa annahoo yuhyil mawtaa wa annahoo 'alaakulli shai'in Qadeer"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "وَأَنَّ ٱلسَّاعَةَ ءَاتِيَةٞ لَّا رَيۡبَ فِيهَا وَأَنَّ ٱللَّهَ يَبۡعَثُ مَن فِي ٱلۡقُبُورِ",
+      "turkishMeal": "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir",
+      "transliteration": "Wa annas Saa'ata aatiya tul laa raiba feeha wa annal laaha yab'asuman fil quboor"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِي ٱللَّهِ بِغَيۡرِ عِلۡمٖ وَلَا هُدٗى وَلَا كِتَٰبٖ مُّنِيرٖ",
+      "turkishMeal": "Bilmeden, doğruya götüren bir rehberi olmadan, aydınlatıcı bir kitabı da bulunmadan Allah yolundan saptırmak için büyüklük taslayarak Allah hakkında tartışan insan vardır. Dünyada rezillik onadır; ona kıyamet günü yakıcı azabı tattırırız",
+      "transliteration": "Wa minan naasi mai yujaadilu fil laahi bighairi 'ilminw wa laa hudanw wa laa Kitaabim Muneer"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "ثَانِيَ عِطۡفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِۖ لَهُۥ فِي ٱلدُّنۡيَا خِزۡيٞۖ وَنُذِيقُهُۥ يَوۡمَ ٱلۡقِيَٰمَةِ عَذَابَ ٱلۡحَرِيقِ",
+      "turkishMeal": "Bilmeden, doğruya götüren bir rehberi olmadan, aydınlatıcı bir kitabı da bulunmadan Allah yolundan saptırmak için büyüklük taslayarak Allah hakkında tartışan insan vardır. Dünyada rezillik onadır; ona kıyamet günü yakıcı azabı tattırırız",
+      "transliteration": "Saaniya 'itfihee liyudilla 'an sabeelil laahi lahoo fiddun yaa khizyunw wa nuzeequhoo Yawmal Qiyaamati 'azaabal lhareeq"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "ذَٰلِكَ بِمَا قَدَّمَتۡ يَدَاكَ وَأَنَّ ٱللَّهَ لَيۡسَ بِظَلَّـٰمٖ لِّلۡعَبِيدِ",
+      "turkishMeal": "Ona: \"Bunlar senin yaptıklarından ötürüdür\" denir, yoksa Allah, kullarına karşı hiç de zalim değildir",
+      "transliteration": "Zaalika bimaa qaddamat yadaaka wa annal laaha laisa bizallaamil lil'abeed"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "وَمِنَ ٱلنَّاسِ مَن يَعۡبُدُ ٱللَّهَ عَلَىٰ حَرۡفٖۖ فَإِنۡ أَصَابَهُۥ خَيۡرٌ ٱطۡمَأَنَّ بِهِۦۖ وَإِنۡ أَصَابَتۡهُ فِتۡنَةٌ ٱنقَلَبَ عَلَىٰ وَجۡهِهِۦ خَسِرَ ٱلدُّنۡيَا وَٱلۡأٓخِرَةَۚ ذَٰلِكَ هُوَ ٱلۡخُسۡرَانُ ٱلۡمُبِينُ",
+      "turkishMeal": "İnsanlar içinde Allah'a, bir yar kenarındaymış gibi kulluk eden vardır. Ona bir iyilik gelirse yatışır, başına bir bela gelirse yüz üstü döner. Dünyayı da ahireti de kaybeder. İşte apaçık kayıp budur",
+      "transliteration": "Wa minan naasi mai ya'budul laaha 'alaa harfin fa in asaabahoo khairunit maanna bihee wa in asaabat hu fitnatunin qalaba 'alaa wajhihee khasirad dunyaa wal aakhirah; zaalika huwal khusraanul mubeen"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "يَدۡعُواْ مِن دُونِ ٱللَّهِ مَا لَا يَضُرُّهُۥ وَمَا لَا يَنفَعُهُۥۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلۡبَعِيدُ",
+      "turkishMeal": "Allah'ı bırakıp, kendisine fayda da zarar da veremeyen şeylere yalvarır. İşte derin sapıklık budur",
+      "transliteration": "Yad'oo min doonil laahi maa laa yadurruhoo wa maa laa yanfa'uh' zaalika huwad dalaalul ba'ed"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "يَدۡعُواْ لَمَن ضَرُّهُۥٓ أَقۡرَبُ مِن نَّفۡعِهِۦۚ لَبِئۡسَ ٱلۡمَوۡلَىٰ وَلَبِئۡسَ ٱلۡعَشِيرُ",
+      "turkishMeal": "Kendisine zararı faydasından daha yakın olana yalvarır. Yalvardığı şey ne kötü yardımcı ve ne kötü yoldaştır",
+      "transliteration": "Yad'oo laman darruhooo aqrabu min naf'ih; labi'salmawlaa wa labi'sal 'asheer"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "إِنَّ ٱللَّهَ يُدۡخِلُ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ جَنَّـٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۚ إِنَّ ٱللَّهَ يَفۡعَلُ مَا يُرِيدُ",
+      "turkishMeal": "Doğrusu Allah, inananları ve yararlı işler işleyenleri, içlerinden ırmaklar akan cennetlere koyar. Allah, şüphesiz, istediğini yapar",
+      "transliteration": "Innal laaha yudkhilul laeena aamanoo wa 'amilus saalihaati jannaatin tajree min tahtihal anhaar; innal laaha yaf'alu maa yureed"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِ فَلۡيَمۡدُدۡ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لۡيَقۡطَعۡ فَلۡيَنظُرۡ هَلۡ يُذۡهِبَنَّ كَيۡدُهُۥ مَا يَغِيظُ",
+      "turkishMeal": "Allah'ın peygamber'e dünyada ve ahirette yardım etmeyeceğini sanan kimse, yukarı bağladığı bir ipe kendini asıp, boğsun; bir düşünsün bakalım, bu hilesi kendisini öfkelendiren şeye engel olabilir mi",
+      "transliteration": "Man kaana yazunnu allai yansurahul laahu fid dunyaa wal aakhirati fal yamdud bisababin ilas samaaa'i summal yaqta' falyanzur hal yuzhibanna kaiduhoo maa yagheez"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "وَكَذَٰلِكَ أَنزَلۡنَٰهُ ءَايَٰتِۭ بَيِّنَٰتٖ وَأَنَّ ٱللَّهَ يَهۡدِي مَن يُرِيدُ",
+      "turkishMeal": "İşte böylece Kuran'ı apaçık ayetler olarak indirdik. Allah, şüphesiz, dilediğini doğru yola eriştirir",
+      "transliteration": "Wa kazaalika anzalnaahu aayaatim baiyinaatinw wa annal laaha yahdee mai yureed"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَٱلَّذِينَ هَادُواْ وَٱلصَّـٰبِـِٔينَ وَٱلنَّصَٰرَىٰ وَٱلۡمَجُوسَ وَٱلَّذِينَ أَشۡرَكُوٓاْ إِنَّ ٱللَّهَ يَفۡصِلُ بَيۡنَهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ شَهِيدٌ",
+      "turkishMeal": "Doğrusu, inananlar ve yahudiler, sabiiler, hıristiyanlar, mecusiler, ortak koşanlar arasında, kıyamet günü Allah kesin hüküm verecektir. Doğrusu Allah herşeye şahiddir",
+      "transliteration": "Innal lazeena aamanoo wallazeena haadoo was saabi'eena wan nasaaraa wal Majoosa wallazeena ashrakooo innal laaha yafsilu bainahum yawmal qiyaamah; innal laaha 'alaa kulli shai'in shaheed"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ يَسۡجُدُۤ لَهُۥۤ مَن فِي ٱلسَّمَٰوَٰتِ وَمَن فِي ٱلۡأَرۡضِ وَٱلشَّمۡسُ وَٱلۡقَمَرُ وَٱلنُّجُومُ وَٱلۡجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٞ مِّنَ ٱلنَّاسِۖ وَكَثِيرٌ حَقَّ عَلَيۡهِ ٱلۡعَذَابُۗ وَمَن يُهِنِ ٱللَّهُ فَمَا لَهُۥ مِن مُّكۡرِمٍۚ إِنَّ ٱللَّهَ يَفۡعَلُ مَا يَشَآءُ۩",
+      "turkishMeal": "Göklerde ve yerde olanların, güneş, ay, yıldızlar, dağlar, ağaçlar, hayvanların ve insanların birçoğunun Allah'a secde ettiklerini görmüyor musun? İnsanların birçoğu da azabı hak etmiştir. Allah'ın alçalttığı kimseyi yükseltebilecek yoktur. Doğrusu Allah ne dilerse yapar",
+      "transliteration": "Alam tara annal laaha yasjudu lahoo man fis samaawaati wa man fil ardi wash shamsu walqamaru wan nu joomu wal jibaalu wash shajaru wad dawaaabbu wa kaseerum minan naasi wa kaseerun haqqa 'alaihil 'azaab; wa mai yuhinil laahu famaa lahoo mim mukrim; innallaaha yaf'alu maa yashaaa"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "۞هَٰذَانِ خَصۡمَانِ ٱخۡتَصَمُواْ فِي رَبِّهِمۡۖ فَٱلَّذِينَ كَفَرُواْ قُطِّعَتۡ لَهُمۡ ثِيَابٞ مِّن نَّارٖ يُصَبُّ مِن فَوۡقِ رُءُوسِهِمُ ٱلۡحَمِيمُ",
+      "turkishMeal": "İşte Rableri hakkında tartışmaya giren iki taraf: O'nu inkar edenlere, ateşten elbiseler kesilmiştir, başlarına da kaynar su dökülür de bununla karınlarındakiler ve deriler eritilir. Demir topuzlar da onlar içindir",
+      "transliteration": "Haazaani khasmaanikh tasamoo fee Rabbihim fal lazeena kafaroo qutti'at lahum siyaabum min naar; yusabbu min fawqi ru'oosihimul hameem"
+    },
+    {
+      "ayahNo": 20,
+      "arabicText": "يُصۡهَرُ بِهِۦ مَا فِي بُطُونِهِمۡ وَٱلۡجُلُودُ",
+      "turkishMeal": "İşte Rableri hakkında tartışmaya giren iki taraf: O'nu inkar edenlere, ateşten elbiseler kesilmiştir, başlarına da kaynar su dökülür de bununla karınlarındakiler ve deriler eritilir. Demir topuzlar da onlar içindir",
+      "transliteration": "Yusharu bihee maa fee butoonihim waljulood"
+    },
+    {
+      "ayahNo": 21,
+      "arabicText": "وَلَهُم مَّقَٰمِعُ مِنۡ حَدِيدٖ",
+      "turkishMeal": "İşte Rableri hakkında tartışmaya giren iki taraf: O'nu inkar edenlere, ateşten elbiseler kesilmiştir, başlarına da kaynar su dökülür de bununla karınlarındakiler ve deriler eritilir. Demir topuzlar da onlar içindir",
+      "transliteration": "Wa lahum maqaami'u min hadeed"
+    },
+    {
+      "ayahNo": 22,
+      "arabicText": "كُلَّمَآ أَرَادُوٓاْ أَن يَخۡرُجُواْ مِنۡهَا مِنۡ غَمٍّ أُعِيدُواْ فِيهَا وَذُوقُواْ عَذَابَ ٱلۡحَرِيقِ",
+      "turkishMeal": "Orada, uğradıkları gamdan ne zaman çıkmak isteseler her defasında oraya geri çevrilirler: \"Yakıcı azabı tadın\" denir",
+      "transliteration": "Kullamaa araadooo any yakhrujoo minhaa min ghammin u'eedoo feeha wa zooqoo 'azaabal hareeq"
+    },
+    {
+      "ayahNo": 23,
+      "arabicText": "إِنَّ ٱللَّهَ يُدۡخِلُ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ جَنَّـٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ يُحَلَّوۡنَ فِيهَا مِنۡ أَسَاوِرَ مِن ذَهَبٖ وَلُؤۡلُؤٗاۖ وَلِبَاسُهُمۡ فِيهَا حَرِيرٞ",
+      "turkishMeal": "Doğrusu Allah, inanıp yararlı iş işleyenleri, içlerinden ırmaklar akan cennetlere koyar. Orada altın bilezikler ve inciler takınırlar. Oradaki elbiseleri de ipektendir",
+      "transliteration": "Innal laaha yudkhilul lazeena aamanoo wa 'amilus saalihaati jannaatin tajree min tahtihal anhaaru yuhallawna feehaa min asaawira min zahabinw wa lu'lu'aa; wa libaasuhum feehaa hareer"
+    },
+    {
+      "ayahNo": 24,
+      "arabicText": "وَهُدُوٓاْ إِلَى ٱلطَّيِّبِ مِنَ ٱلۡقَوۡلِ وَهُدُوٓاْ إِلَىٰ صِرَٰطِ ٱلۡحَمِيدِ",
+      "turkishMeal": "Bu kimseler, sözün güzelini işitecek duruma ulaştırılmışlar, övülmeğe layık olan Allah'ın yoluna eriştirilmişlerdir",
+      "transliteration": "Wa hudooo ilat taiyibi minal qawli wa hudooo ilaaa siraatil hameed"
+    },
+    {
+      "ayahNo": 25,
+      "arabicText": "إِنَّ ٱلَّذِينَ كَفَرُواْ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلۡمَسۡجِدِ ٱلۡحَرَامِ ٱلَّذِي جَعَلۡنَٰهُ لِلنَّاسِ سَوَآءً ٱلۡعَٰكِفُ فِيهِ وَٱلۡبَادِۚ وَمَن يُرِدۡ فِيهِ بِإِلۡحَادِۭ بِظُلۡمٖ نُّذِقۡهُ مِنۡ عَذَابٍ أَلِيمٖ",
+      "turkishMeal": "Doğrusu inkar edenleri, Allah'ın yolundan, yerli ve yolcu bütün insanlar için eşit kılınan Mescidi Haram'dan alıkoyanları ve orada zulm ile yanlış yola saptırmak isteyeni, can yakıcı bir azaba uğratırız",
+      "transliteration": "Innal lazeena kafaroo wa yasuddoona 'an sabeelil laahi wal Masjidil Haraamil lazee ja'alnaahu linnaasi sawaaa'anil 'aakifu feehi walbaad; wa mai yurid feehi bi ilhaadim bizulmin nuziqhu min 'azaabin aleem"
+    },
+    {
+      "ayahNo": 26,
+      "arabicText": "وَإِذۡ بَوَّأۡنَا لِإِبۡرَٰهِيمَ مَكَانَ ٱلۡبَيۡتِ أَن لَّا تُشۡرِكۡ بِي شَيۡـٔٗا وَطَهِّرۡ بَيۡتِيَ لِلطَّآئِفِينَ وَٱلۡقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+      "turkishMeal": "Bana hiçbir şeyi ortak koşma; tavaf edenler, orada kıyama duranlar, rüku edenler ve secdeye varanlar için Evimi temiz tut\" diye İbrahim'i Kabe'nin yerine yerleştirmiştik",
+      "transliteration": "Wa iz bawwaanaa li Ibraaheema makaanal Baiti allaa tushrik bee shai'anw wa tahhir Baitiya litaaa'ifeena walqaaa' imeena warrukka 'is sujood"
+    },
+    {
+      "ayahNo": 27,
+      "arabicText": "وَأَذِّن فِي ٱلنَّاسِ بِٱلۡحَجِّ يَأۡتُوكَ رِجَالٗا وَعَلَىٰ كُلِّ ضَامِرٖ يَأۡتِينَ مِن كُلِّ فَجٍّ عَمِيقٖ",
+      "turkishMeal": "İnsanları hacca çağır; yürüyerek veya binekler üstünde uzak yollardan sana gelsinler",
+      "transliteration": "Wa azzin fin naasi bil Hajji yaatooka rijaalanw wa 'alaa kulli daamiriny yaateena min kulli fajjin 'ameeq"
+    },
+    {
+      "ayahNo": 28,
+      "arabicText": "لِّيَشۡهَدُواْ مَنَٰفِعَ لَهُمۡ وَيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ فِيٓ أَيَّامٖ مَّعۡلُومَٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلۡأَنۡعَٰمِۖ فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+      "turkishMeal": "Taki kendi menfaatlerine şahid olsunlar; Allah'ın onlara rızık olarak verdiği hayvanları belli günlerde kurban ederken O'nun adını ansınlar. Siz de bunlardan yiyin, çaresiz kalmış yoksulu da doyurun",
+      "transliteration": "Li yashhadoo manaafi'a lahum wa yazkurus mal laahi feee ayyaamimma'loomaatin 'alaa maa razaqahum mim baheematil an'aami fakuloo minhaa wa at'imul baaa'isal faqeer"
+    },
+    {
+      "ayahNo": 29,
+      "arabicText": "ثُمَّ لۡيَقۡضُواْ تَفَثَهُمۡ وَلۡيُوفُواْ نُذُورَهُمۡ وَلۡيَطَّوَّفُواْ بِٱلۡبَيۡتِ ٱلۡعَتِيقِ",
+      "turkishMeal": "Sonra kirlerini giderip temizlensinler. Adaklarını yerine getirsinler. Kabe'yi tavaf etsinler",
+      "transliteration": "Summal yaqdoo tafasahum wal yoofoo nuzoorahum wal yattawwafoo bil Baitil 'Ateeq"
+    },
+    {
+      "ayahNo": 30,
+      "arabicText": "ذَٰلِكَۖ وَمَن يُعَظِّمۡ حُرُمَٰتِ ٱللَّهِ فَهُوَ خَيۡرٞ لَّهُۥ عِندَ رَبِّهِۦۗ وَأُحِلَّتۡ لَكُمُ ٱلۡأَنۡعَٰمُ إِلَّا مَا يُتۡلَىٰ عَلَيۡكُمۡۖ فَٱجۡتَنِبُواْ ٱلرِّجۡسَ مِنَ ٱلۡأَوۡثَٰنِ وَٱجۡتَنِبُواْ قَوۡلَ ٱلزُّورِ",
+      "turkishMeal": "İşte böyle. Kim Allah'ın yasaklarına saygı gösterirse, bu Rabbinin katında kendi iyiliğinedir. (Haram olduğu) size okunanlar dışında kalan hayvanlar, size helal kılındı. O halde pis putlardan sakının; yalan sözden kaçının",
+      "transliteration": "Zaalika wa mai yu'azzim hurumaatil laahi fahuwa khairul lahoo 'inda Rabbih; wa uhillat lakumul an'aamu illaa maa yutlaa 'alaikum fajtanibur rijsa minal awsaani wajtaniboo qawlaz zoor"
+    },
+    {
+      "ayahNo": 31,
+      "arabicText": "حُنَفَآءَ لِلَّهِ غَيۡرَ مُشۡرِكِينَ بِهِۦۚ وَمَن يُشۡرِكۡ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ فَتَخۡطَفُهُ ٱلطَّيۡرُ أَوۡ تَهۡوِي بِهِ ٱلرِّيحُ فِي مَكَانٖ سَحِيقٖ",
+      "turkishMeal": "Allah'a ortak koşmaksızın O'na yönelerek pis putlardan kaçının, yalan sözden çekinin. Allah'a ortak koşan kimse, gökten düşüp de kuşların kaptığı veya rüzgarın bir uçuruma attığı şeye benzer",
+      "transliteration": "Hunafaaa'a lillaahi ghaira mushrikeena bih; wa mai yushrik billaahi faka annamaa kharra minas samaaa'i fatakh tafuhut tairu aw tahwee bihir reehu bee makaanin saheeq"
+    },
+    {
+      "ayahNo": 32,
+      "arabicText": "ذَٰلِكَۖ وَمَن يُعَظِّمۡ شَعَـٰٓئِرَ ٱللَّهِ فَإِنَّهَا مِن تَقۡوَى ٱلۡقُلُوبِ",
+      "turkishMeal": "Bu böyledir; kişinin Allah'ın nişanelerine hürmet göstermesi, kalblerin Allah'a karşı gelmekten sakınmasındandır",
+      "transliteration": "Zaalika wa mai yu'azzim sha'aaa'iral laahi fa innahaa min taqwal quloob"
+    },
+    {
+      "ayahNo": 33,
+      "arabicText": "لَكُمۡ فِيهَا مَنَٰفِعُ إِلَىٰٓ أَجَلٖ مُّسَمّٗى ثُمَّ مَحِلُّهَآ إِلَى ٱلۡبَيۡتِ ٱلۡعَتِيقِ",
+      "turkishMeal": "Bu nişanelerde sizin için belli bir süreye kadar faydalar vardır. Sonra bunlar Beyti Atik'de, Kabe'de son bulurlar",
+      "transliteration": "Lakum feehaa manaafi'u ilaaa ajalim musamman summa mahilluhaaa ilal Baitil 'Ateeq"
+    },
+    {
+      "ayahNo": 34,
+      "arabicText": "وَلِكُلِّ أُمَّةٖ جَعَلۡنَا مَنسَكٗا لِّيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلۡأَنۡعَٰمِۗ فَإِلَٰهُكُمۡ إِلَٰهٞ وَٰحِدٞ فَلَهُۥٓ أَسۡلِمُواْۗ وَبَشِّرِ ٱلۡمُخۡبِتِينَ",
+      "turkishMeal": "Her ümmet için, Allah'ın kendilerine rızk olarak verdiği kurbanlık hayvanların üzerlerine O'nun adını anarak kurban kesmeyi meşru kıldık. Sizin Tanrınız tek bir Tanrı'dır, O'na teslim olun. Allah anıldığı zaman kalbleri titreyen, başlarına gelene sabreden, namaz kılan, kendilerine verdiğimiz rızıktan sarfeden ve Allah'a gönül vermiş olan kimselere müjde et",
+      "transliteration": "Wa likulli ummatin ja'alnaa mansakal liyazkurus mal laahi 'alaa maa razaqahum mim baheematil an'aam; failaahukum ilaahunw Waahidun falahooo aslimoo; wa bashshiril mukhbiteen"
+    },
+    {
+      "ayahNo": 35,
+      "arabicText": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتۡ قُلُوبُهُمۡ وَٱلصَّـٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمۡ وَٱلۡمُقِيمِي ٱلصَّلَوٰةِ وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ",
+      "turkishMeal": "Her ümmet için, Allah'ın kendilerine rızk olarak verdiği kurbanlık hayvanların üzerlerine O'nun adını anarak kurban kesmeyi meşru kıldık. Sizin Tanrınız tek bir Tanrı'dır, O'na teslim olun. Allah anıldığı zaman kalbleri titreyen, başlarına gelene sabreden, namaz kılan, kendilerine verdiğimiz rızıktan sarfeden ve Allah'a gönül vermiş olan kimselere müjde et",
+      "transliteration": "Allazeena izaa zukiral laahu wajilat quloobuhum wassaabireena 'alaa maaa asaabahum walmuqeemis Salaati wa mimmaa razaqnaahum yunfiqoon"
+    },
+    {
+      "ayahNo": 36,
+      "arabicText": "وَٱلۡبُدۡنَ جَعَلۡنَٰهَا لَكُم مِّن شَعَـٰٓئِرِ ٱللَّهِ لَكُمۡ فِيهَا خَيۡرٞۖ فَٱذۡكُرُواْ ٱسۡمَ ٱللَّهِ عَلَيۡهَا صَوَآفَّۖ فَإِذَا وَجَبَتۡ جُنُوبُهَا فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡقَانِعَ وَٱلۡمُعۡتَرَّۚ كَذَٰلِكَ سَخَّرۡنَٰهَا لَكُمۡ لَعَلَّكُمۡ تَشۡكُرُونَ",
+      "turkishMeal": "İşte kurbanlık deve ve sığırları Allah'ın size olan nişanelerinden kıldık. Onlarda sizin için hayır vardır. Bağlı halde keserken üzerlerine Allah'ın adını anın. Yan üstü düşüp ölünce onlardan yiyin, isteyene de istemeyene de verin. Şükredersiniz diye onları böylece sizin buyruğunuza verdik",
+      "transliteration": "Walbudna ja'alnaahaa lakum min sha'aaa'iril laahi lakum feehaa khairun fazkurusmal laahi 'alaihaa sawaaff; fa izaa wajabat junoobuhaa fakuloo minhaa wa at'imul qaani'a walmu'tarr; kazaalika sakhkharnaahaa lakum la'allakum tashkuroon"
+    },
+    {
+      "ayahNo": 37,
+      "arabicText": "لَن يَنَالَ ٱللَّهَ لُحُومُهَا وَلَا دِمَآؤُهَا وَلَٰكِن يَنَالُهُ ٱلتَّقۡوَىٰ مِنكُمۡۚ كَذَٰلِكَ سَخَّرَهَا لَكُمۡ لِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡۗ وَبَشِّرِ ٱلۡمُحۡسِنِينَ",
+      "turkishMeal": "Bu hayvanların ne etleri ve ne de kanları Allah'a ulaşacaktır. Allah'a ulaşacak olan ancak sizin O'nun için yaptığınız gösterişten uzak amel ve ibadettir. Size doğru yolu gösterdiğinden, Allah'ı yüceltmeniz için onları böylece sizin buyruğunuza vermiştir. İyilik yapanlara müjde et",
+      "transliteration": "Lany yanaalal laaha luhoo muhaa wa laa dimaaa'uhaa wa laakiny yanaaluhut taqwaa minkum; kazaalika sakhkharhaa lakum litukabbirul laaha 'alaa ma hadaakum; wa bashshirul muhsineen"
+    },
+    {
+      "ayahNo": 38,
+      "arabicText": "۞إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ ءَامَنُوٓاْۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٖ كَفُورٍ",
+      "turkishMeal": "Allah şüphesiz inananları savunur, çünkü hainleri ve nankörleri hiç sevmez",
+      "transliteration": "Innal laaha yudaafi' 'anil lazeena aamanoo; innal laaha laa yuhibbu kulla khawwaanin kafoor"
+    },
+    {
+      "ayahNo": 39,
+      "arabicText": "أُذِنَ لِلَّذِينَ يُقَٰتَلُونَ بِأَنَّهُمۡ ظُلِمُواْۚ وَإِنَّ ٱللَّهَ عَلَىٰ نَصۡرِهِمۡ لَقَدِيرٌ",
+      "turkishMeal": "Haksızlığa uğratılarak kendilerine savaş açılan kimselerin karşı koyup savaşmasına izin verilmiştir. Allah onlara yardım etmeğe elbette Kadir'dir",
+      "transliteration": "Uzina lillazeena yuqaataloona bi annahum zulimoo; wa innal laaha 'alaa nasrihim la Qaderr"
+    },
+    {
+      "ayahNo": 40,
+      "arabicText": "ٱلَّذِينَ أُخۡرِجُواْ مِن دِيَٰرِهِم بِغَيۡرِ حَقٍّ إِلَّآ أَن يَقُولُواْ رَبُّنَا ٱللَّهُۗ وَلَوۡلَا دَفۡعُ ٱللَّهِ ٱلنَّاسَ بَعۡضَهُم بِبَعۡضٖ لَّهُدِّمَتۡ صَوَٰمِعُ وَبِيَعٞ وَصَلَوَٰتٞ وَمَسَٰجِدُ يُذۡكَرُ فِيهَا ٱسۡمُ ٱللَّهِ كَثِيرٗاۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓۚ إِنَّ ٱللَّهَ لَقَوِيٌّ عَزِيزٌ",
+      "turkishMeal": "Onlar haksız yere ve \"Rabbimiz Allah'tır\" dediler diye yurtlarından çıkarılmışlardır. Allah insanların bir kısmını diğeriyle savmasaydı, manastırlar, kiliseler, havralar ve içinde Allah'ın adı çok anılan camiler yıkılıp giderdi. And olsun ki, Allah'a yardım edenlere O da yardım eder. Doğrusu Allah kuvvetlidir, güçlüdür",
+      "transliteration": "Allazeena ukhrijoo min diyaarihim bighairi haqqin illaaa any yaqooloo rabbunallaah; wa law laa daf'ul laahin naasa ba'dahum biba'dil lahuddimat sawaami'u wa biya'unw wa salawaatunw wa masaajidu yuzkaru feehasmul laahi kaseeraa; wa layansurannal laahu mai yansuruh; innal laaha la qawiyyun 'Azeez"
+    },
+    {
+      "ayahNo": 41,
+      "arabicText": "ٱلَّذِينَ إِن مَّكَّنَّـٰهُمۡ فِي ٱلۡأَرۡضِ أَقَامُواْ ٱلصَّلَوٰةَ وَءَاتَوُاْ ٱلزَّكَوٰةَ وَأَمَرُواْ بِٱلۡمَعۡرُوفِ وَنَهَوۡاْ عَنِ ٱلۡمُنكَرِۗ وَلِلَّهِ عَٰقِبَةُ ٱلۡأُمُورِ",
+      "turkishMeal": "Onları biz yeryüzüne yerleştirirsek namaz kılarlar, zekat verirler, uygun olanı emrederler, fenalığı yasak ederler. İşlerin sonucu Allah'a aittir",
+      "transliteration": "Allazeena im makkan naahum fil ardi aqaamus Salaata wa aatawuz Zakaata wa amaroo bilma'roofi wa nahaw 'anil munkar; wa lillaahi 'aaqibatul umoor"
+    },
+    {
+      "ayahNo": 42,
+      "arabicText": "وَإِن يُكَذِّبُوكَ فَقَدۡ كَذَّبَتۡ قَبۡلَهُمۡ قَوۡمُ نُوحٖ وَعَادٞ وَثَمُودُ",
+      "turkishMeal": "Seni yalancı sayıyorlarsa bil ki, onlardan önce Nuh milleti, Ad, Semud, İbrahim milleti, Lut milleti ve Medyen halkı da peygamberlerini yalancı saymış ve Musa da yalanlanmıştı. Ama Ben, kafirlere önce mehil verdim, sonra da onları yakalayıverdim; Beni tanımamak nasılmış görsünler",
+      "transliteration": "Wa iny yukazzibooka faqad kazzabat qablahum qawmu Nooinw wa Aadunw wa Samood"
+    },
+    {
+      "ayahNo": 43,
+      "arabicText": "وَقَوۡمُ إِبۡرَٰهِيمَ وَقَوۡمُ لُوطٖ",
+      "turkishMeal": "Seni yalancı sayıyorlarsa bil ki, onlardan önce Nuh milleti, Ad, Semud, İbrahim milleti, Lut milleti ve Medyen halkı da peygamberlerini yalancı saymış ve Musa da yalanlanmıştı. Ama Ben, kafirlere önce mehil verdim, sonra da onları yakalayıverdim; Beni tanımamak nasılmış görsünler",
+      "transliteration": "Wa qawmu Ibraaheema wa qawmu Loot"
+    },
+    {
+      "ayahNo": 44,
+      "arabicText": "وَأَصۡحَٰبُ مَدۡيَنَۖ وَكُذِّبَ مُوسَىٰۖ فَأَمۡلَيۡتُ لِلۡكَٰفِرِينَ ثُمَّ أَخَذۡتُهُمۡۖ فَكَيۡفَ كَانَ نَكِيرِ",
+      "turkishMeal": "Seni yalancı sayıyorlarsa bil ki, onlardan önce Nuh milleti, Ad, Semud, İbrahim milleti, Lut milleti ve Medyen halkı da peygamberlerini yalancı saymış ve Musa da yalanlanmıştı. Ama Ben, kafirlere önce mehil verdim, sonra da onları yakalayıverdim; Beni tanımamak nasılmış görsünler",
+      "transliteration": "Wa as haabu Madyana wa kuzziba Moosaa fa amlaitu lilkaafireena summa akhaztuhum fakaifa kaana nakeer"
+    },
+    {
+      "ayahNo": 45,
+      "arabicText": "فَكَأَيِّن مِّن قَرۡيَةٍ أَهۡلَكۡنَٰهَا وَهِيَ ظَالِمَةٞ فَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئۡرٖ مُّعَطَّلَةٖ وَقَصۡرٖ مَّشِيدٍ",
+      "turkishMeal": "Nice kasabaların halkını haksızlık yaparken yok ettik. Artık çatıları çökmüş, kuyuları metruk, sarayları bomboş kalmıştır",
+      "transliteration": "Faka ayyim min qaryatin ahlaknaahaa wa hiya zaalimatun fahiya khaawiyatun 'alaa 'urooshihaa wa bi'rim mu'at talatinw wa qasrim masheed"
+    },
+    {
+      "ayahNo": 46,
+      "arabicText": "أَفَلَمۡ يَسِيرُواْ فِي ٱلۡأَرۡضِ فَتَكُونَ لَهُمۡ قُلُوبٞ يَعۡقِلُونَ بِهَآ أَوۡ ءَاذَانٞ يَسۡمَعُونَ بِهَاۖ فَإِنَّهَا لَا تَعۡمَى ٱلۡأَبۡصَٰرُ وَلَٰكِن تَعۡمَى ٱلۡقُلُوبُ ٱلَّتِي فِي ٱلصُّدُورِ",
+      "turkishMeal": "Yeryüzünde dolaşmıyorlar mı ki, orada olanları akledecek kalbleri, işitecek kulakları olsun. Ama yalnız gözler kör olmaz, fakat göğüslerde olan kalbler de körleşir",
+      "transliteration": "Afalam yaseeroo fil ardi fatakoona lahum quloobuny ya'qiloona bihaaa aw aazaanuny yasm'oona bihaa fa innahaa laa ta'mal absaaru wa laakin ta'mal quloobul latee fissudoor"
+    },
+    {
+      "ayahNo": 47,
+      "arabicText": "وَيَسۡتَعۡجِلُونَكَ بِٱلۡعَذَابِ وَلَن يُخۡلِفَ ٱللَّهُ وَعۡدَهُۥۚ وَإِنَّ يَوۡمًا عِندَ رَبِّكَ كَأَلۡفِ سَنَةٖ مِّمَّا تَعُدُّونَ",
+      "turkishMeal": "Senden, başlarına acele azap getirmeni istiyorlar. Allah sözünden asla caymayacaktır. Rabbinin katında bir gün, saydıklarınızdan bin yıl gibidir",
+      "transliteration": "Wa yasta'juloonaka bil'azaabi wa lany yukhlifal laahu wa'dah; wa inna yawman 'inda Rabbika ka'alfi sanatim mimmaa ta'uddoon"
+    },
+    {
+      "ayahNo": 48,
+      "arabicText": "وَكَأَيِّن مِّن قَرۡيَةٍ أَمۡلَيۡتُ لَهَا وَهِيَ ظَالِمَةٞ ثُمَّ أَخَذۡتُهَا وَإِلَيَّ ٱلۡمَصِيرُ",
+      "turkishMeal": "Nice kasabalara, haksız oldukları halde, mehil vermiştim; sonunda onları yakalayıverdim. Dönüş ancak Bana'dır",
+      "transliteration": "Wa ka ayyim min qaryatin amlaitu lahaa wa hiya zaalimatun summa akhaztuhaa wa ilaiyal maseer"
+    },
+    {
+      "ayahNo": 49,
+      "arabicText": "قُلۡ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَآ أَنَا۠ لَكُمۡ نَذِيرٞ مُّبِينٞ",
+      "turkishMeal": "Ey insanlar! Ben sizin için ancak apaçık bir uyarıcıyım\" de",
+      "transliteration": "Qul yaaa ayyuhan naasu innamaaa ana lakum nazeerum mubeen"
+    },
+    {
+      "ayahNo": 50,
+      "arabicText": "فَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُم مَّغۡفِرَةٞ وَرِزۡقٞ كَرِيمٞ",
+      "turkishMeal": "Cömertçe verilmiş rızık ve mağfiret, inanan ve yararlı iş işleyenleredir",
+      "transliteration": "Fallazeena aamanoo wa 'amilu saalihaati lahum maghfiratunw wa rizqun kareem"
+    },
+    {
+      "ayahNo": 51,
+      "arabicText": "وَٱلَّذِينَ سَعَوۡاْ فِيٓ ءَايَٰتِنَا مُعَٰجِزِينَ أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلۡجَحِيمِ",
+      "turkishMeal": "Ayetlerimizi tartışarak bozmağa uğraşanlar, işte onlar cehennemliklerdir",
+      "transliteration": "Wallazeena sa'aw feee Aayaatinaa mu'aajizeena ulaaa ika As-haabul jaheem"
+    },
+    {
+      "ayahNo": 52,
+      "arabicText": "وَمَآ أَرۡسَلۡنَا مِن قَبۡلِكَ مِن رَّسُولٖ وَلَا نَبِيٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلۡقَى ٱلشَّيۡطَٰنُ فِيٓ أُمۡنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلۡقِي ٱلشَّيۡطَٰنُ ثُمَّ يُحۡكِمُ ٱللَّهُ ءَايَٰتِهِۦۗ وَٱللَّهُ عَلِيمٌ حَكِيمٞ",
+      "turkishMeal": "Senden önce gönderdiğimiz hiçbir resul ve nebi yoktur ki, birşeyi arzuladığı zaman, şeytan onun arzusuna vesvese karıştırmamış olsun. Fakat Allah, şeytanın attığını derhal iptal eder, sonra kendi ayetlerini sağlamlaştırır. Allah bilendir, hüküm ve hikmet sahibidir",
+      "transliteration": "Wa maaa arsalnaa min qablika mir Rasoolinnw wa laa Nabiyyin illaaa izaaa tamannaaa alqash Shaitaanu feee umniy yatihee fa yansakhul laahu maa yulqish Shaitaanu summa yuhkimul laahu aayaatih; wallaahu 'Aleemun Hakeem"
+    },
+    {
+      "ayahNo": 53,
+      "arabicText": "لِّيَجۡعَلَ مَا يُلۡقِي ٱلشَّيۡطَٰنُ فِتۡنَةٗ لِّلَّذِينَ فِي قُلُوبِهِم مَّرَضٞ وَٱلۡقَاسِيَةِ قُلُوبُهُمۡۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَفِي شِقَاقِۭ بَعِيدٖ",
+      "turkishMeal": "Allah şeytanın karıştırdığını, kalblerinde hastalık bulunan ve kalbleri kaskatı olan kimseleri sınamayı vesile kılar. Zalimler şüphesiz derin bir ayrılık içindedirler",
+      "transliteration": "Liyaj'ala maa yulqish Shaitaanu fitnatal lillazeena fee quloobihim maradunw walqaasiyati quloobuhum; wa innaz zaalimeena lafee shiqaaqim ba'eed"
+    },
+    {
+      "ayahNo": 54,
+      "arabicText": "وَلِيَعۡلَمَ ٱلَّذِينَ أُوتُواْ ٱلۡعِلۡمَ أَنَّهُ ٱلۡحَقُّ مِن رَّبِّكَ فَيُؤۡمِنُواْ بِهِۦ فَتُخۡبِتَ لَهُۥ قُلُوبُهُمۡۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓاْ إِلَىٰ صِرَٰطٖ مُّسۡتَقِيمٖ",
+      "turkishMeal": "Bu, kendilerine ilim verilenlerin Kuran'ın, senin Rabbin'den bir gerçek olduğunu bilip de ona inanmaları ve gönüllerini bağlamaları içindir. Allah inananları şüphesiz doğru yola eriştirir",
+      "transliteration": "Wa liya'lamal lazeena ootul 'ilma annahul haqqu mir Rabbika fa yu'minoo bihee fatukhbita ahoo quloobuhum; wa innal laaha lahaadil lazeena aamanoo ilaa Siraatim Mustaqeem"
+    },
+    {
+      "ayahNo": 55,
+      "arabicText": "وَلَا يَزَالُ ٱلَّذِينَ كَفَرُواْ فِي مِرۡيَةٖ مِّنۡهُ حَتَّىٰ تَأۡتِيَهُمُ ٱلسَّاعَةُ بَغۡتَةً أَوۡ يَأۡتِيَهُمۡ عَذَابُ يَوۡمٍ عَقِيمٍ",
+      "turkishMeal": "İnkar edenler, ceza saati kendilerine ansızın gelene veya gecesi olmayan günün azabı çatana kadar Kuran'dan şüphe etmekte devam ederler",
+      "transliteration": "Wa laa yazaalul lazeena kafaroo fee miryatim minhu hattaa taatiyahumus Saa'atu baghtatan aw yaatiyahum 'azaabu Yawmin 'aqeem"
+    },
+    {
+      "ayahNo": 56,
+      "arabicText": "ٱلۡمُلۡكُ يَوۡمَئِذٖ لِّلَّهِ يَحۡكُمُ بَيۡنَهُمۡۚ فَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فِي جَنَّـٰتِ ٱلنَّعِيمِ",
+      "turkishMeal": "İşte o gün hükümranlık Allah'ındır. O aralarında hükmeder. İnanıp yararlı iş işleyenler nimet cennetlerindedirler",
+      "transliteration": "Almulku Yawma'izil lillaahi yahkumu bainahum; fallazeena aamanoo wa 'amilus saalihaati fee jannaatin Na'eem"
+    },
+    {
+      "ayahNo": 57,
+      "arabicText": "وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِـَٔايَٰتِنَا فَأُوْلَـٰٓئِكَ لَهُمۡ عَذَابٞ مُّهِينٞ",
+      "turkishMeal": "İnkar edenler, ayetlerimizi yalan sayan kimseler, işte onlar için hakir düşüren azap vardır",
+      "transliteration": "Wallazeena kafaroo wa kazzaboo bi Aayaatinaa fa ulaaa'ika lahum 'azaabum muheen"
+    },
+    {
+      "ayahNo": 58,
+      "arabicText": "وَٱلَّذِينَ هَاجَرُواْ فِي سَبِيلِ ٱللَّهِ ثُمَّ قُتِلُوٓاْ أَوۡ مَاتُواْ لَيَرۡزُقَنَّهُمُ ٱللَّهُ رِزۡقًا حَسَنٗاۚ وَإِنَّ ٱللَّهَ لَهُوَ خَيۡرُ ٱلرَّـٰزِقِينَ",
+      "turkishMeal": "Allah yolunda hicret edenlere, sonra öldürülen veya ölenlere Allah, elbette onlara güzel bir rızık verecektir. Rızık verenlerin en hayırlısı yalnız Allah'tır",
+      "transliteration": "Wallazeena haajaroo fee sabeelil laahi summa qutilooo law maatoo la yarzuqan nahumul laahu rizqan hasanaa; wa innal laaha la Huwa khairur raaziqeen"
+    },
+    {
+      "ayahNo": 59,
+      "arabicText": "لَيُدۡخِلَنَّهُم مُّدۡخَلٗا يَرۡضَوۡنَهُۥۚ وَإِنَّ ٱللَّهَ لَعَلِيمٌ حَلِيمٞ",
+      "turkishMeal": "And olsun ki, onları hoşnut olacakları bir yere koyar. Şüphesiz Allah bilendir, Halim'dir",
+      "transliteration": "La yudkhilan nahum mud khalany yardawnah; wa innal laaha la 'Aleemun Haleem"
+    },
+    {
+      "ayahNo": 60,
+      "arabicText": "۞ذَٰلِكَۖ وَمَنۡ عَاقَبَ بِمِثۡلِ مَا عُوقِبَ بِهِۦ ثُمَّ بُغِيَ عَلَيۡهِ لَيَنصُرَنَّهُ ٱللَّهُۚ إِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٞ",
+      "turkishMeal": "Bu böyledir; kim kendisine verilen kadar ceza verirse ve kendisine yine de saldırılırsa, Allah ona, and olsun ki yardım edecektir. Allah şüphesiz, affeder ve bağışlar",
+      "transliteration": "Zaalika wa man 'aaqaba bimisli maa 'ooqiba bihee summa bughiya 'alaihi la yansurannahul laah; innal laaha la 'Afuwwun Ghafoor"
+    },
+    {
+      "ayahNo": 61,
+      "arabicText": "ذَٰلِكَ بِأَنَّ ٱللَّهَ يُولِجُ ٱلَّيۡلَ فِي ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِي ٱلَّيۡلِ وَأَنَّ ٱللَّهَ سَمِيعُۢ بَصِيرٞ",
+      "turkishMeal": "Böyledir; Allah geceyi gündüze katar, gündüzü de geceye katar ve Allah şüphesiz işitir ve görür",
+      "transliteration": "Zaalika bi annal laaha yoolijul laila fin nahaari wa yoolijun nahaara fil laili wa annal laaha Samee'um Baseer"
+    },
+    {
+      "ayahNo": 62,
+      "arabicText": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلۡحَقُّ وَأَنَّ مَا يَدۡعُونَ مِن دُونِهِۦ هُوَ ٱلۡبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلۡعَلِيُّ ٱلۡكَبِيرُ",
+      "turkishMeal": "Keza Hak yalnız Allah'tır; O'nu bırakıp taptıkları sadece batıldır. Doğrusu Allah yücedir büyüktür",
+      "transliteration": "Zaalika bi annal laaha Huwal haqqu wa anna maa yad'oona min doonihee huwal baatilu wa annal laaha Huwal 'Aliyyul kabeer"
+    },
+    {
+      "ayahNo": 63,
+      "arabicText": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءٗ فَتُصۡبِحُ ٱلۡأَرۡضُ مُخۡضَرَّةًۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٞ",
+      "turkishMeal": "Allah'ın gökten indirdiği su ile yerin yemyeşil olduğunu görmez misin? Doğrusu Allah Latif'dir, haberdardır",
+      "transliteration": "Alam tara annal laaha anzala minas samaaa'i maaa'an fatusbihul ardu mukhdarrah; innal laaha Lateefun Khabeer"
+    },
+    {
+      "ayahNo": 64,
+      "arabicText": "لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلۡغَنِيُّ ٱلۡحَمِيدُ",
+      "turkishMeal": "Göklerde olanlar, yerde olanlar O'nundur. Doğrusu Allah müstağnidir, övülmeğe layık olandır",
+      "transliteration": "Lahoo ma fis samaawaati wa ma fil ard; wa innal laaha la Huwal Ghaniyyul Hameed"
+    },
+    {
+      "ayahNo": 65,
+      "arabicText": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِي ٱلۡأَرۡضِ وَٱلۡفُلۡكَ تَجۡرِي فِي ٱلۡبَحۡرِ بِأَمۡرِهِۦ وَيُمۡسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلۡأَرۡضِ إِلَّا بِإِذۡنِهِۦٓۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٞ رَّحِيمٞ",
+      "turkishMeal": "Allah'ın yerde olanları ve emriyle denizlerde yürüyen gemileri buyruğunuz altına vermiş olduğunu; buyruğu olmaksızın yere düşmemesi için göğü O'nun tuttuğunu görmez misin? Doğrusu Allah insanlara karşı şefkatli ve merhametli olandır",
+      "transliteration": "Alam tara annal laaha sakhkhara lakum maa fil ardi wal fulka tajree fil bahri bi amrihee wa yumsikus samaaa'a an taqa'a 'alal ardi illaa biiznih; innal laaha binnaasi la Ra'oofur Raheem"
+    },
+    {
+      "ayahNo": 66,
+      "arabicText": "وَهُوَ ٱلَّذِيٓ أَحۡيَاكُمۡ ثُمَّ يُمِيتُكُمۡ ثُمَّ يُحۡيِيكُمۡۗ إِنَّ ٱلۡإِنسَٰنَ لَكَفُورٞ",
+      "turkishMeal": "Sizi dirilten, sonra öldürecek sonra yine diriltecek olan O'dur. İnsan gerçekten pek nankördür",
+      "transliteration": "Wa Huwal lazee ahyaakum summa yumeetukum summma yuheekum; innal insaana lakafoor"
+    },
+    {
+      "ayahNo": 67,
+      "arabicText": "لِّكُلِّ أُمَّةٖ جَعَلۡنَا مَنسَكًا هُمۡ نَاسِكُوهُۖ فَلَا يُنَٰزِعُنَّكَ فِي ٱلۡأَمۡرِۚ وَٱدۡعُ إِلَىٰ رَبِّكَۖ إِنَّكَ لَعَلَىٰ هُدٗى مُّسۡتَقِيمٖ",
+      "turkishMeal": "Her ümmete, yerine getirmeleri gerekli ibadetler koyduk. Öyleyse, bu konuda seninle çekişmelerine fırsat verme; Rabbine davet et, sen şüphesiz doğru yol üzerindesin. Seninle tartışırlarsa: \"Allah yaptığınızı çok iyi bilir; ayrılığa düştüğünüz şeyler hakkında, kıyamet günü aranızda Allah hükmedecektir\" de",
+      "transliteration": "Likulli ummatin ja'alnaa mansakan hum naasikoohu falaa yunaazi 'unnaka fil amr; wad'u ilaa Rabbika innaka la 'alaa hudam mustaqeem"
+    },
+    {
+      "ayahNo": 68,
+      "arabicText": "وَإِن جَٰدَلُوكَ فَقُلِ ٱللَّهُ أَعۡلَمُ بِمَا تَعۡمَلُونَ",
+      "turkishMeal": "Her ümmete, yerine getirmeleri gerekli ibadetler koyduk. Öyleyse, bu konuda seninle çekişmelerine fırsat verme; Rabbine davet et, sen şüphesiz doğru yol üzerindesin. Seninle tartışırlarsa: \"Allah yaptığınızı çok iyi bilir; ayrılığa düştüğünüz şeyler hakkında, kıyamet günü aranızda Allah hükmedecektir\" de",
+      "transliteration": "Wa in jaadalooka faqulil laahu a'lamu bimaa ta'maloon"
+    },
+    {
+      "ayahNo": 69,
+      "arabicText": "ٱللَّهُ يَحۡكُمُ بَيۡنَكُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ فِيمَا كُنتُمۡ فِيهِ تَخۡتَلِفُونَ",
+      "turkishMeal": "Her ümmete, yerine getirmeleri gerekli ibadetler koyduk. Öyleyse, bu konuda seninle çekişmelerine fırsat verme; Rabbine davet et, sen şüphesiz doğru yol üzerindesin. Seninle tartışırlarsa: \"Allah yaptığınızı çok iyi bilir; ayrılığa düştüğünüz şeyler hakkında, kıyamet günü aranızda Allah hükmedecektir\" de",
+      "transliteration": "Allaahu yahkumu bainakum Yawmal Qiyaamati feemaa kuntum feehi takhtalifoon"
+    },
+    {
+      "ayahNo": 70,
+      "arabicText": "أَلَمۡ تَعۡلَمۡ أَنَّ ٱللَّهَ يَعۡلَمُ مَا فِي ٱلسَّمَآءِ وَٱلۡأَرۡضِۚ إِنَّ ذَٰلِكَ فِي كِتَٰبٍۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٞ",
+      "turkishMeal": "Gökte ve yerde olanı Allah'ın bildiğini bilmez misin? Bunlar hiç şüphesiz Kitap'dadır ve şüphesiz bunlar Allah'a kolaydır",
+      "transliteration": "Alam ta'lam annal laaha ya'lamu maa fis samaaa'i wal ard; inna zaalika fee kitaab; inna zaalika 'alal laahi yaseer"
+    },
+    {
+      "ayahNo": 71,
+      "arabicText": "وَيَعۡبُدُونَ مِن دُونِ ٱللَّهِ مَا لَمۡ يُنَزِّلۡ بِهِۦ سُلۡطَٰنٗا وَمَا لَيۡسَ لَهُم بِهِۦ عِلۡمٞۗ وَمَا لِلظَّـٰلِمِينَ مِن نَّصِيرٖ",
+      "turkishMeal": "Onlar Allah'ı bırakıp da O'nun, haklarında hiçbir delil indirmediği, kendilerinde de bir bilgi olmayan şeylere taparlar. Zulmedenlerin yardımcısı olmaz",
+      "transliteration": "Wa ya'budoona min doonil laahi maa lam yunazzil bihee sultaananw wa maa laisa lahum bihee 'ilm; wa maa lizzaalimeena min naseer"
+    },
+    {
+      "ayahNo": 72,
+      "arabicText": "وَإِذَا تُتۡلَىٰ عَلَيۡهِمۡ ءَايَٰتُنَا بَيِّنَٰتٖ تَعۡرِفُ فِي وُجُوهِ ٱلَّذِينَ كَفَرُواْ ٱلۡمُنكَرَۖ يَكَادُونَ يَسۡطُونَ بِٱلَّذِينَ يَتۡلُونَ عَلَيۡهِمۡ ءَايَٰتِنَاۗ قُلۡ أَفَأُنَبِّئُكُم بِشَرّٖ مِّن ذَٰلِكُمُۚ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُواْۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+      "turkishMeal": "Onlara ayetlerimiz apaçık olarak okunduğu zaman, inkar edenlerin yüzlerinden inkarlarını anlarsın. Nerdeyse, kendilerine ayetlerimizi okuyanlara saldıracaklar. De ki: \"Size bundan daha fenasını haber vereyim mi? Allah'ın inkarcılara vadettiği ateş! Ne kötü bir dönüştür",
+      "transliteration": "Wa izaa tutlaa 'laihim Aayaatunaa baiyinaatin ta'rifu fee wujoohil lazeena kafarul munkara yakaadoona yastoona bil lazeena yatloona 'alaihim Aayaatinaa; qul afa unab bi'ukum bisharrim min zaalikum; an Naaru wa 'adahal laahul lazeena kafaroo wa bi'sal maseer"
+    },
+    {
+      "ayahNo": 73,
+      "arabicText": "يَـٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٞ فَٱسۡتَمِعُواْ لَهُۥٓۚ إِنَّ ٱلَّذِينَ تَدۡعُونَ مِن دُونِ ٱللَّهِ لَن يَخۡلُقُواْ ذُبَابٗا وَلَوِ ٱجۡتَمَعُواْ لَهُۥۖ وَإِن يَسۡلُبۡهُمُ ٱلذُّبَابُ شَيۡـٔٗا لَّا يَسۡتَنقِذُوهُ مِنۡهُۚ ضَعُفَ ٱلطَّالِبُ وَٱلۡمَطۡلُوبُ",
+      "turkishMeal": "Ey insanlar! Bir misal verilmektedir, şimdi onu dinleyin: Sizlerin Allah'ı bırakıp taptıklarınız bir araya gelseler, bir sinek bile yaratamıyacaklardır. Sinek onlardan bir şey kapsa, onu kurtaramazlar; isteyen de, istenen de aciz",
+      "transliteration": "Yaaa ayyuhan naasu duriba masalun fastami'oo lah; innal lazeena tad'oona min doonil laahi lai yakhluqoo zubaabanw wa lawijtama'oo lahoo wa iny yaslub humuz zubbabu shai'al laa yastan qizoohu minh; da'ufat taalibu walmatloob"
+    },
+    {
+      "ayahNo": 74,
+      "arabicText": "مَا قَدَرُواْ ٱللَّهَ حَقَّ قَدۡرِهِۦٓۚ إِنَّ ٱللَّهَ لَقَوِيٌّ عَزِيزٌ",
+      "turkishMeal": "Allah'ı gereği gibi değerlendiremediler. Doğrusu Allah kuvvetlidir, güçlüdür",
+      "transliteration": "Maa qadrul laaha haqqa qadrih; innal laaha la Qawiyyun 'Azeez"
+    },
+    {
+      "ayahNo": 75,
+      "arabicText": "ٱللَّهُ يَصۡطَفِي مِنَ ٱلۡمَلَـٰٓئِكَةِ رُسُلٗا وَمِنَ ٱلنَّاسِۚ إِنَّ ٱللَّهَ سَمِيعُۢ بَصِيرٞ",
+      "turkishMeal": "Allah meleklerden ve insanlardan peygamberler seçer. Doğrusu Allah işitir ve görür",
+      "transliteration": "Allahu yastafee minal malaaa'ikati Rusulanw wa minan naas; innal laaha Samee'um Baseer"
+    },
+    {
+      "ayahNo": 76,
+      "arabicText": "يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۚ وَإِلَى ٱللَّهِ تُرۡجَعُ ٱلۡأُمُورُ",
+      "turkishMeal": "O, geçmişlerini geleceklerini bilir. Bütün işler Allah'a döner",
+      "transliteration": "Ya'lamu maa baina aydeehim wa maa khalfahum; wa ilal laahi turja'ul umoor"
+    },
+    {
+      "ayahNo": 77,
+      "arabicText": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱرۡكَعُواْ وَٱسۡجُدُواْۤ وَٱعۡبُدُواْ رَبَّكُمۡ وَٱفۡعَلُواْ ٱلۡخَيۡرَ لَعَلَّكُمۡ تُفۡلِحُونَ۩",
+      "turkishMeal": "Ey inananlar! Rüku edin, secdeye varın, Rabbiniz'e kulluk edin, iyilik yapın ki saadete erişesiniz",
+      "transliteration": "Yaaa ayyuhal lazeena aamanur ka'oo wasjudoo wa'budoo Rabbakum waf'alul khaira la'allakum tuflihoon"
+    },
+    {
+      "ayahNo": 78,
+      "arabicText": "وَجَٰهِدُواْ فِي ٱللَّهِ حَقَّ جِهَادِهِۦۚ هُوَ ٱجۡتَبَىٰكُمۡ وَمَا جَعَلَ عَلَيۡكُمۡ فِي ٱلدِّينِ مِنۡ حَرَجٖۚ مِّلَّةَ أَبِيكُمۡ إِبۡرَٰهِيمَۚ هُوَ سَمَّىٰكُمُ ٱلۡمُسۡلِمِينَ مِن قَبۡلُ وَفِي هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيۡكُمۡ وَتَكُونُواْ شُهَدَآءَ عَلَى ٱلنَّاسِۚ فَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَٱعۡتَصِمُواْ بِٱللَّهِ هُوَ مَوۡلَىٰكُمۡۖ فَنِعۡمَ ٱلۡمَوۡلَىٰ وَنِعۡمَ ٱلنَّصِيرُ",
+      "turkishMeal": "Allah uğrunda gereği gibi cihat edin. O, sizi seçmiş, babanız İbrahim'in yolu olan dinde sizin için bir zorluk kılmamıştır. Daha önce ve Kuran'da, peygamberin size şahit olması, sizin de insanlara şahit olmanız için size müslüman adını veren O'dur. Artık, namaz kılın, zekat verin, Allah'a sarılın. O sizin sahibinizdir. Ne güzel sahip ve ne güzel yardımcıdır",
+      "transliteration": "Wa jaahidoo fil laahi haqqa jihaadih; Huwaj tabaakum wa maa ja'ala 'alaikum fid deeni min haraj; Millata abeekum Ibraaheem; Huwa sammaakumul muslimeena min qablu wa fee haaza li yakoonar Rasoolu shaheedan 'alaikum wa takoonoo shuhadaaa'a 'alan naas; fa aqeemus salaata wa aatuz zakaata wa'tasimoo billaahi Huwa mawlaakum fani'mal mawlaa wa ni'man naseer"
+    }
+  ]
+}

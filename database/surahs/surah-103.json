@@ -1,0 +1,27 @@
+{
+  "id": 103,
+  "name": "العصر",
+  "transliteration": "Al-'Asr",
+  "type": "meccan",
+  "total_verses": 3,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "وَٱلۡعَصۡرِ",
+      "turkishMeal": "İkindi vaktine (Asra; çağa) and olsun ki",
+      "transliteration": "Wal' asr"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+      "turkishMeal": "İnsan hiç şüphesiz hüsran içindedir",
+      "transliteration": "Innal insaana lafee khusr"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+      "turkishMeal": "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır",
+      "transliteration": "Il lal lazeena aamanu wa 'amilus saali haati wa tawa saw bil haqqi wa tawa saw bis sabr"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1,
+  "name": "الفاتحة",
+  "transliteration": "Al-Fatihah",
+  "type": "meccan",
+  "total_verses": 7,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "turkishMeal": "Rahman ve Rahim olan Allah'ın adıyla",
+      "transliteration": "Bismillaahir Rahmaanir Raheem"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+      "turkishMeal": "Hamd, Alemlerin Rabbi Allah'a mahsustur",
+      "transliteration": "Alhamdu lillaahi Rabbil 'aalameen"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "turkishMeal": "O Rahman ve Rahim'dir",
+      "transliteration": "Ar-Rahmaanir-Raheem"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+      "turkishMeal": "Din Gününün sahibidir",
+      "transliteration": "Maaliki Yawmid-Deen"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
+      "turkishMeal": "Ancak Sana kulluk eder ve yalnız Senden yardım dileriz",
+      "transliteration": "Iyyaaka na'budu wa lyyaaka nasta'een"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+      "turkishMeal": "Bizi doğru yola eriştir",
+      "transliteration": "Ihdinas-Siraatal-Mustaqeem"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
+      "turkishMeal": "Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil",
+      "transliteration": "Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen"
+    }
+  ]
+}

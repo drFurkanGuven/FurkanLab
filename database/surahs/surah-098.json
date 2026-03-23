@@ -1,0 +1,57 @@
+{
+  "id": 98,
+  "name": "البينة",
+  "transliteration": "Al-Bayyinah",
+  "type": "medinan",
+  "total_verses": 8,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ",
+      "turkishMeal": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi",
+      "transliteration": "Lam ya kunil lazeena kafaru min ahlil kitaabi wal mushri keena mun fak keena hattaa ta-tiya humul bayyinah"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "رَسُولٞ مِّنَ ٱللَّهِ يَتۡلُواْ صُحُفٗا مُّطَهَّرَةٗ",
+      "turkishMeal": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi",
+      "transliteration": "Rasoolum minal laahi yatlu suhufam mutahharah"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "فِيهَا كُتُبٞ قَيِّمَةٞ",
+      "turkishMeal": "Kitap ehlinden ve ortak koşanlardan inkarcılar, kendilerine apaçık bir belge, içinde kesin ve en doğru hükümlerin bulunduğu arınmış sahifeleri okuyan, Allah katından bir Peygamber gelene kadar dinlerinden vazgeçecek değillerdi",
+      "transliteration": "Feeha kutubun qaiyimah"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ إِلَّا مِنۢ بَعۡدِ مَا جَآءَتۡهُمُ ٱلۡبَيِّنَةُ",
+      "turkishMeal": "Ama, kendilerine kitap verilenler, onlara apaçık belge geldikten sonra ayrılığa düştüler",
+      "transliteration": "Wa maa tafarraqal lazeena ootul kitaaba il-la mim b'adi ma jaa-at humul baiyyinah"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "وَمَآ أُمِرُوٓاْ إِلَّا لِيَعۡبُدُواْ ٱللَّهَ مُخۡلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُواْ ٱلصَّلَوٰةَ وَيُؤۡتُواْ ٱلزَّكَوٰةَۚ وَذَٰلِكَ دِينُ ٱلۡقَيِّمَةِ",
+      "turkishMeal": "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı. Dosdoğru olan din de budur",
+      "transliteration": "Wa maa umiroo il-la liy'abu dul laaha mukhliseena lahud-deena huna faa-a wa yuqeemus salaahta wa yu-tuz zakaata; wa zaalika deenul qaiyimah"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَـٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ",
+      "turkishMeal": "Kitap ehlinden ve ortak koşanlardan inkar edenler, şüphesiz içinde temelli kalacakları cehennem ateşindedirler. İşte bunlar, yaratıkların en kötüsüdürler",
+      "transliteration": "Innal lazeena kafaru min ahlil kitaabi wal mushri keena fee nari jahan nama khaali deena feeha; ulaa-ika hum shar rul ba reeyah"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ أُوْلَـٰٓئِكَ هُمۡ خَيۡرُ ٱلۡبَرِيَّةِ",
+      "turkishMeal": "Fakat, inanıp yararlı iş işleyenler, işte onlar da, yaratıkların en iyileridirler",
+      "transliteration": "Innal lazeena aamanu wa 'amilus saalihaati ula-ika hum khairul bareey yah"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "جَزَآؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّـٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ لِمَنۡ خَشِيَ رَبَّهُۥ",
+      "turkishMeal": "Onların Rableri katındaki mükafatı, içinde temelli ve sonsuz kalacakları, içlerinden ırmaklar akan Adn cennetleridir. Allah onlardan razıdır. Onlar da Allah'tan razıdır. Bu, Rabbinden korkan kimseyedir",
+      "transliteration": "Jazaa-uhum inda rabbihim jan naatu 'adnin tajree min tahtihal an haaru khalideena feeha abada; radiy-yallaahu 'anhum wa ra du 'an zaalika liman khashiya rabbah."
+    }
+  ]
+}
