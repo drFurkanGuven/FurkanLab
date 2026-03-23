@@ -1,0 +1,75 @@
+{
+  "id": 101,
+  "name": "القارعة",
+  "transliteration": "Al-Qari'ah",
+  "type": "meccan",
+  "total_verses": 11,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "ٱلۡقَارِعَةُ",
+      "turkishMeal": "Gürültü koparacak olan",
+      "transliteration": "Al qaari'ah"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "مَا ٱلۡقَارِعَةُ",
+      "turkishMeal": "Nedir o gürültü koparacak olan",
+      "transliteration": "Mal qaariah"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+      "turkishMeal": "O gürültü koparacak olanın ne olduğunu sen bilir misin",
+      "transliteration": "Wa maa adraaka mal qaari'ah"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+      "turkishMeal": "O gün insanlar, ateş etrafında çırpınıp dökülen pervaneye dönecekler",
+      "transliteration": "Yauma ya koonun naasu kal farashil mabthooth"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+      "turkishMeal": "Dağlar, atılmış renkli yüne benzeyecekler",
+      "transliteration": "Wa ta koonul jibalu kal 'ihnil manfoosh"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+      "turkishMeal": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır",
+      "transliteration": "Fa-amma man thaqulat mawa zeenuh"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+      "turkishMeal": "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır",
+      "transliteration": "Fahuwa fee 'ishatir raadiyah"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+      "turkishMeal": "Tartıları hafif gelenler ise",
+      "transliteration": "Wa amma man khaffat mawa zeenuh"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "فَأُمُّهُۥ هَاوِيَةٞ",
+      "turkishMeal": "Onların yeri bir çukurdur",
+      "transliteration": "Fa-ummuhu haawiyah"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+      "turkishMeal": "O çukurun ne olduğunu sen bilir misin",
+      "transliteration": "Wa maa adraaka maa hiyah"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "نَارٌ حَامِيَةُۢ",
+      "turkishMeal": "O, kızgın bir ateştir",
+      "transliteration": "Naarun hamiyah"
+    }
+  ]
+}

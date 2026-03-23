@@ -1,0 +1,129 @@
+{
+  "id": 90,
+  "name": "البلد",
+  "transliteration": "Al-Balad",
+  "type": "meccan",
+  "total_verses": 20,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "لَآ أُقۡسِمُ بِهَٰذَا ٱلۡبَلَدِ",
+      "turkishMeal": "Bu şehre (Mekke'ye) yemin ederim; ki sen bu şehirde oturmuşsun",
+      "transliteration": "Laaa uqsimu bihaazal balad"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَأَنتَ حِلُّۢ بِهَٰذَا ٱلۡبَلَدِ",
+      "turkishMeal": "Bu şehre (Mekke'ye) yemin ederim; ki sen bu şehirde oturmuşsun",
+      "transliteration": "Wa anta hillum bihaazal balad"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَوَالِدٖ وَمَا وَلَدَ",
+      "turkishMeal": "Doğurana ve doğurduğuna and olsun ki",
+      "transliteration": "Wa waalidinw wa maa walad"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِي كَبَدٍ",
+      "turkishMeal": "İnsanoğlunu, zorluklara katlanacak şekilde yarattık",
+      "transliteration": "Laqad khalaqnal insaana fee kabad"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "أَيَحۡسَبُ أَن لَّن يَقۡدِرَ عَلَيۡهِ أَحَدٞ",
+      "turkishMeal": "İnsanoğlu, kendisine kimsenin güç yetiremeyeceğini mi sanıyor",
+      "transliteration": "Ayahsabu al-lai yaqdira 'alaihi ahad"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "يَقُولُ أَهۡلَكۡتُ مَالٗا لُّبَدًا",
+      "turkishMeal": "Yığın yığın mal tüketmişimdir\" diyor",
+      "transliteration": "Yaqoolu ahlaktu maalal lubadaa"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "أَيَحۡسَبُ أَن لَّمۡ يَرَهُۥٓ أَحَدٌ",
+      "turkishMeal": "O, kimsenin kendisini görmediğini mi zannediyor",
+      "transliteration": "Ayahsabu al lam yarahooo ahad"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "أَلَمۡ نَجۡعَل لَّهُۥ عَيۡنَيۡنِ",
+      "turkishMeal": "Biz onun için iki göz, bir dil ve iki dudak var etmedik mi",
+      "transliteration": "Alam naj'al lahoo 'aynayn"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "وَلِسَانٗا وَشَفَتَيۡنِ",
+      "turkishMeal": "Biz onun için iki göz, bir dil ve iki dudak var etmedik mi",
+      "transliteration": "Wa lisaananw wa shafatayn"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَهَدَيۡنَٰهُ ٱلنَّجۡدَيۡنِ",
+      "turkishMeal": "Biz ona eğri ve doğru iki yolu da göstermedik mi",
+      "transliteration": "Wa hadaynaahun najdayn"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ",
+      "turkishMeal": "Ama o, zor geçidi aşmaya girişemedi",
+      "transliteration": "Falaq tahamal-'aqabah"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
+      "turkishMeal": "O zor geçidin ne olduğunu sen bilir misin",
+      "transliteration": "Wa maaa adraaka mal'aqabah"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "فَكُّ رَقَبَةٍ",
+      "turkishMeal": "O geçit, bir köle ve esir azadetmek",
+      "transliteration": "Fakku raqabah"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "أَوۡ إِطۡعَٰمٞ فِي يَوۡمٖ ذِي مَسۡغَبَةٖ",
+      "turkishMeal": "Yahut, açlık gününde, yakını olan bir öksüzü, yahut toprağa serilmiş bir yoksulu doyurmaktır",
+      "transliteration": "Aw it'aamun fee yawmin zee masghabah"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "يَتِيمٗا ذَا مَقۡرَبَةٍ",
+      "turkishMeal": "Yahut, açlık gününde, yakını olan bir öksüzü, yahut toprağa serilmiş bir yoksulu doyurmaktır",
+      "transliteration": "Yateeman zaa maqrabah"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "أَوۡ مِسۡكِينٗا ذَا مَتۡرَبَةٖ",
+      "turkishMeal": "Yahut, açlık gününde, yakını olan bir öksüzü, yahut toprağa serilmiş bir yoksulu doyurmaktır",
+      "transliteration": "Aw miskeenan zaa matrabah"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ",
+      "turkishMeal": "Sonra, inanıp birbirlerine sabır tavsiye edenlerden, merhametlilerden olmayı tavsiye edenlerden olmaktır",
+      "transliteration": "Summa kaana minal lazeena aamanoo wa tawaasaw bissabri wa tawaasaw bilmarhamah"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "أُوْلَـٰٓئِكَ أَصۡحَٰبُ ٱلۡمَيۡمَنَةِ",
+      "turkishMeal": "İşte bunlar amel defterleri sağdan verilenlerdir",
+      "transliteration": "Ulaaa'ika As-haabul maimanah"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "وَٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمۡ أَصۡحَٰبُ ٱلۡمَشۡـَٔمَةِ",
+      "turkishMeal": "Ayetlerimizi inkar edenler, işte onlar amel defterleri sollarından verilenlerdir",
+      "transliteration": "Wallazeena kafaroo bi aayaatinaa hum as-haabul Mash'amah"
+    },
+    {
+      "ayahNo": 20,
+      "arabicText": "عَلَيۡهِمۡ نَارٞ مُّؤۡصَدَةُۢ",
+      "turkishMeal": "Onlar her yönden ateşle kapatılacaklardır",
+      "transliteration": "Alaihim naarum mu'sadah"
+    }
+  ]
+}

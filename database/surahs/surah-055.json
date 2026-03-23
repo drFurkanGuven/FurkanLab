@@ -1,0 +1,477 @@
+{
+  "id": 55,
+  "name": "الرحمن",
+  "transliteration": "Ar-Rahman",
+  "type": "medinan",
+  "total_verses": 78,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "ٱلرَّحۡمَٰنُ",
+      "turkishMeal": "Rahman olan Allah Kuran'ı öğretti",
+      "transliteration": "Ar Rahmaan"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "عَلَّمَ ٱلۡقُرۡءَانَ",
+      "turkishMeal": "Rahman olan Allah Kuran'ı öğretti",
+      "transliteration": "'Allamal Quran"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "خَلَقَ ٱلۡإِنسَٰنَ",
+      "turkishMeal": "İnsanı yarattı, ona konuşmayı öğretti",
+      "transliteration": "Khalaqal insaan"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "عَلَّمَهُ ٱلۡبَيَانَ",
+      "turkishMeal": "İnsanı yarattı, ona konuşmayı öğretti",
+      "transliteration": "'Allamalhul bayaan"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "ٱلشَّمۡسُ وَٱلۡقَمَرُ بِحُسۡبَانٖ",
+      "turkishMeal": "Güneş ve ayın hareketleri bir hesaba göredir",
+      "transliteration": "Ashshamsu walqamaru bihusbaan"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "وَٱلنَّجۡمُ وَٱلشَّجَرُ يَسۡجُدَانِ",
+      "turkishMeal": "Bitkiler ve ağaçlar O'nun buyruğuna boyun eğerler",
+      "transliteration": "Wannajmu washshajaru yasjudan"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلۡمِيزَانَ",
+      "turkishMeal": "O, göğü yükseltmiştir; tartıyı koymuştur",
+      "transliteration": "Wassamaaa'a rafa'ahaa wa wada'al Meezan"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "أَلَّا تَطۡغَوۡاْ فِي ٱلۡمِيزَانِ",
+      "turkishMeal": "Artık tartıda tecavüz etmeyin",
+      "transliteration": "Allaa tatghaw fil meezaan"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "وَأَقِيمُواْ ٱلۡوَزۡنَ بِٱلۡقِسۡطِ وَلَا تُخۡسِرُواْ ٱلۡمِيزَانَ",
+      "turkishMeal": "Tartmayı doğru yapın, tartıyı eksik tutmayın",
+      "transliteration": "Wa aqeemul wazna bilqisti wa laa tukhsirul meezaan"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَٱلۡأَرۡضَ وَضَعَهَا لِلۡأَنَامِ",
+      "turkishMeal": "Allah, yeri yaratıkları için meydana getirmiştir",
+      "transliteration": "Wal arda wada'ahaa lilanaame"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "فِيهَا فَٰكِهَةٞ وَٱلنَّخۡلُ ذَاتُ ٱلۡأَكۡمَامِ",
+      "turkishMeal": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır",
+      "transliteration": "Feehaa faakihatunw wan nakhlu zaatul akmaam"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "وَٱلۡحَبُّ ذُو ٱلۡعَصۡفِ وَٱلرَّيۡحَانُ",
+      "turkishMeal": "Orada meyveler, salkımlı hurma ağaçları, kabuklu taneler, güzel kokulu otlar vardır",
+      "transliteration": "Walhabbu zul 'asfi war Raihaanu"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Ey insanlar ve cinler! Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "خَلَقَ ٱلۡإِنسَٰنَ مِن صَلۡصَٰلٖ كَٱلۡفَخَّارِ",
+      "turkishMeal": "O, insanı pişmiş çamur gibi kuru balçıktan yaratmıştır",
+      "transliteration": "Khalaqal insaana min salsaalin kalfakhkhaari"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "وَخَلَقَ ٱلۡجَآنَّ مِن مَّارِجٖ مِّن نَّارٖ",
+      "turkishMeal": "Cinleri de yalın bir alevden yaratmıştır",
+      "transliteration": "Wa khalaqal jaaan mim maarijim min naar"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken; Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "رَبُّ ٱلۡمَشۡرِقَيۡنِ وَرَبُّ ٱلۡمَغۡرِبَيۡنِ",
+      "turkishMeal": "O, iki doğunun Rabbidir, iki batının Rabbidir",
+      "transliteration": "Rabbul mashriqayni wa Rabbul maghribayni"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "مَرَجَ ٱلۡبَحۡرَيۡنِ يَلۡتَقِيَانِ",
+      "turkishMeal": "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir",
+      "transliteration": "Marajal bahrayni yalta qiyaani"
+    },
+    {
+      "ayahNo": 20,
+      "arabicText": "بَيۡنَهُمَا بَرۡزَخٞ لَّا يَبۡغِيَانِ",
+      "turkishMeal": "Aralarında bir engel vardır; birbirinin sınırını aşamazlar",
+      "transliteration": "Bainahumaa barzakhul laa yabghiyaan"
+    },
+    {
+      "ayahNo": 21,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan"
+    },
+    {
+      "ayahNo": 22,
+      "arabicText": "يَخۡرُجُ مِنۡهُمَا ٱللُّؤۡلُؤُ وَٱلۡمَرۡجَانُ",
+      "turkishMeal": "Bu iki denizden de inci ve mercan çıkar",
+      "transliteration": "Yakhruju minhumal lu 'lu u wal marjaanu"
+    },
+    {
+      "ayahNo": 23,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan"
+    },
+    {
+      "ayahNo": 24,
+      "arabicText": "وَلَهُ ٱلۡجَوَارِ ٱلۡمُنشَـَٔاتُ فِي ٱلۡبَحۡرِ كَٱلۡأَعۡلَٰمِ",
+      "turkishMeal": "Denizde yürüyen dağlar gibi gemiler O'nundur",
+      "transliteration": "Wa lahul jawaaril mun sha'aatu fil bahri kal a'laam"
+    },
+    {
+      "ayahNo": 25,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 26,
+      "arabicText": "كُلُّ مَنۡ عَلَيۡهَا فَانٖ",
+      "turkishMeal": "Yeryüzünde bulunan her şey fanidir",
+      "transliteration": "Kullu man 'alaihaa faan"
+    },
+    {
+      "ayahNo": 27,
+      "arabicText": "وَيَبۡقَىٰ وَجۡهُ رَبِّكَ ذُو ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",
+      "turkishMeal": "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir",
+      "transliteration": "Wa yabqaa wajhu rabbika zul jalaali wal ikraam"
+    },
+    {
+      "ayahNo": 28,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 29,
+      "arabicText": "يَسۡـَٔلُهُۥ مَن فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ كُلَّ يَوۡمٍ هُوَ فِي شَأۡنٖ",
+      "turkishMeal": "Göklerde ve yerde olan kimseler her şeyi O'ndan isterler; O her an kainata tasarruf etmektedir",
+      "transliteration": "Yas'aluhoo man fissamaawaati walard; kulla ywmin huwa fee shaan"
+    },
+    {
+      "ayahNo": 30,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 31,
+      "arabicText": "سَنَفۡرُغُ لَكُمۡ أَيُّهَ ٱلثَّقَلَانِ",
+      "turkishMeal": "Ey insan ve cin toplulukları! Sizin de hesabınızı ele alacağız",
+      "transliteration": "Sanafrughu lakum ayyuhas saqalaan"
+    },
+    {
+      "ayahNo": 32,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 33,
+      "arabicText": "يَٰمَعۡشَرَ ٱلۡجِنِّ وَٱلۡإِنسِ إِنِ ٱسۡتَطَعۡتُمۡ أَن تَنفُذُواْ مِنۡ أَقۡطَارِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ فَٱنفُذُواْۚ لَا تَنفُذُونَ إِلَّا بِسُلۡطَٰنٖ",
+      "turkishMeal": "Ey cin ve insan toplulukları! Göklerin ve yerin çevresini aşıp geçmeye gücünüz yetiyorsa geçin! Ama Allah'ın verdiği bir güç olmaksızın geçemezsiniz ki",
+      "transliteration": "Yaa ma'sharal jinni wal insi inis tata'tum an tanfuzoo min aqtaaris samaawaati wal ardi fanfuzoo; laa tanfuzoona illaa bisultaan"
+    },
+    {
+      "ayahNo": 34,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 35,
+      "arabicText": "يُرۡسَلُ عَلَيۡكُمَا شُوَاظٞ مِّن نَّارٖ وَنُحَاسٞ فَلَا تَنتَصِرَانِ",
+      "turkishMeal": "Ey insanlar ve cinler! Üzerinize dumansız bir alev ve ateşsiz bir duman gönderilir de kurtulamazsınız",
+      "transliteration": "Yursalu 'alaikumaa shuwaazum min naarifiw-wa nuhaasun falaa tantasiraan"
+    },
+    {
+      "ayahNo": 36,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 37,
+      "arabicText": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتۡ وَرۡدَةٗ كَٱلدِّهَانِ",
+      "turkishMeal": "Gök yarılıp da, gül gibi kızardığı, yağ gibi eridiği zaman haliniz nice olur",
+      "transliteration": "Fa-izan shaqqatis samaaa'u fakaanat wardatan kaddihaan"
+    },
+    {
+      "ayahNo": 38,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 39,
+      "arabicText": "فَيَوۡمَئِذٖ لَّا يُسۡـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٞ وَلَا جَآنّٞ",
+      "turkishMeal": "O gün ne insana ve ne cine suçu sorulur",
+      "transliteration": "Fa-yawma'izil laa yus'alu 'an zambiheee insunw wa laa jaann"
+    },
+    {
+      "ayahNo": 40,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 41,
+      "arabicText": "يُعۡرَفُ ٱلۡمُجۡرِمُونَ بِسِيمَٰهُمۡ فَيُؤۡخَذُ بِٱلنَّوَٰصِي وَٱلۡأَقۡدَامِ",
+      "turkishMeal": "Suçlular simalarından tanınırlar da, alın saçlarından ve ayaklarından yakalanırlar",
+      "transliteration": "Yu'raful mujrimoona biseemaahum fa'yu'khazu binna waasi wal aqdaam"
+    },
+    {
+      "ayahNo": 42,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 43,
+      "arabicText": "هَٰذِهِۦ جَهَنَّمُ ٱلَّتِي يُكَذِّبُ بِهَا ٱلۡمُجۡرِمُونَ",
+      "turkishMeal": "İşte suçluların yalanladıkları cehennem budur",
+      "transliteration": "Haazihee jahannamul latee yukazzibu bihal mujrimoon"
+    },
+    {
+      "ayahNo": 44,
+      "arabicText": "يَطُوفُونَ بَيۡنَهَا وَبَيۡنَ حَمِيمٍ ءَانٖ",
+      "turkishMeal": "Onlar, cehennem ateşiyle kaynar su arasında dolaşır dururlar",
+      "transliteration": "Yatoofoona bainahaa wa baina hameemim aan"
+    },
+    {
+      "ayahNo": 45,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 46,
+      "arabicText": "وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+      "turkishMeal": "Rabbine karşı durmaktan korkan kimseye iki cennet vardır",
+      "transliteration": "Wa liman khaafa maqaama rabbihee jannataan"
+    },
+    {
+      "ayahNo": 47,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 48,
+      "arabicText": "ذَوَاتَآ أَفۡنَانٖ",
+      "turkishMeal": "Bu iki cennet türlü ağaçlarla doludur",
+      "transliteration": "Zawaataaa afnaan"
+    },
+    {
+      "ayahNo": 49,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 50,
+      "arabicText": "فِيهِمَا عَيۡنَانِ تَجۡرِيَانِ",
+      "turkishMeal": "Bu cennetlerden akan iki kaynak vardır",
+      "transliteration": "Feehimaa 'aynaani tajriyaan"
+    },
+    {
+      "ayahNo": 51,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 52,
+      "arabicText": "فِيهِمَا مِن كُلِّ فَٰكِهَةٖ زَوۡجَانِ",
+      "turkishMeal": "Bu cennetlerde türlü meyveden çift çift vardır",
+      "transliteration": "Feehimaa min kulli faakihatin zawjaan"
+    },
+    {
+      "ayahNo": 53,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 54,
+      "arabicText": "مُتَّكِـِٔينَ عَلَىٰ فُرُشِۭ بَطَآئِنُهَا مِنۡ إِسۡتَبۡرَقٖۚ وَجَنَى ٱلۡجَنَّتَيۡنِ دَانٖ",
+      "turkishMeal": "Orada, örtüleri parlak atlastan yataklara yaslanırlar; iki cennetin meyvelerini de kolayca toplarlar",
+      "transliteration": "Muttaki'eena 'alaa furushim bataaa'inuhaa min istabraq; wajanal jannataini daan"
+    },
+    {
+      "ayahNo": 55,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 56,
+      "arabicText": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرۡفِ لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",
+      "turkishMeal": "Orada, bakışlarını yalnız eşlerine çevirmiş, daha önce ne insan ve ne de cinlerin dokunmuş olduğu eşler vardır",
+      "transliteration": "Feehinna qaasiratut tarfi lam yatmishunna insun qablahum wa laa jaaann"
+    },
+    {
+      "ayahNo": 57,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 58,
+      "arabicText": "كَأَنَّهُنَّ ٱلۡيَاقُوتُ وَٱلۡمَرۡجَانُ",
+      "turkishMeal": "Onlar yakut ve mercan gibidirler",
+      "transliteration": "ka annahunnal yaaqootu wal marjaan"
+    },
+    {
+      "ayahNo": 59,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 60,
+      "arabicText": "هَلۡ جَزَآءُ ٱلۡإِحۡسَٰنِ إِلَّا ٱلۡإِحۡسَٰنُ",
+      "turkishMeal": "İyiliğin karşılığı ancak iyilik değil midir",
+      "transliteration": "Hal jazaaa'ul ihsaani illal ihsaan"
+    },
+    {
+      "ayahNo": 61,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 62,
+      "arabicText": "وَمِن دُونِهِمَا جَنَّتَانِ",
+      "turkishMeal": "Bu iki cennetten başka iki cennet daha vardır",
+      "transliteration": "Wa min doonihimaa jannataan"
+    },
+    {
+      "ayahNo": 63,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 64,
+      "arabicText": "مُدۡهَآمَّتَانِ",
+      "turkishMeal": "Renkleri koyu yeşildir",
+      "transliteration": "Mudhaaammataan"
+    },
+    {
+      "ayahNo": 65,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 66,
+      "arabicText": "فِيهِمَا عَيۡنَانِ نَضَّاخَتَانِ",
+      "turkishMeal": "İkisinde de durmadan fışkıran iki kaynak vardır",
+      "transliteration": "Feehimaa 'aynaani nad daakhataan"
+    },
+    {
+      "ayahNo": 67,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 68,
+      "arabicText": "فِيهِمَا فَٰكِهَةٞ وَنَخۡلٞ وَرُمَّانٞ",
+      "turkishMeal": "İkisinde de türlü türlü meyveler, hurmalıklar ve nar ağaçları vardır",
+      "transliteration": "Feehimaa faakihatunw wa nakhlunw wa rummaan"
+    },
+    {
+      "ayahNo": 69,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 70,
+      "arabicText": "فِيهِنَّ خَيۡرَٰتٌ حِسَانٞ",
+      "turkishMeal": "Oralarda iyi huylu güzel kadınlar vardır",
+      "transliteration": "Feehinna khairaatun hisaan"
+    },
+    {
+      "ayahNo": 71,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 72,
+      "arabicText": "حُورٞ مَّقۡصُورَٰتٞ فِي ٱلۡخِيَامِ",
+      "turkishMeal": "Çadırlar içinde ceylan gözlüler vardır",
+      "transliteration": "Hoorum maqsooraatun fil khiyaam"
+    },
+    {
+      "ayahNo": 73,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 74,
+      "arabicText": "لَمۡ يَطۡمِثۡهُنَّ إِنسٞ قَبۡلَهُمۡ وَلَا جَآنّٞ",
+      "turkishMeal": "Onlara daha önce insan da, cin de dokunmamıştır",
+      "transliteration": "Lam yatmis hunna insun qablahum wa laa jaaann"
+    },
+    {
+      "ayahNo": 75,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 76,
+      "arabicText": "مُتَّكِـِٔينَ عَلَىٰ رَفۡرَفٍ خُضۡرٖ وَعَبۡقَرِيٍّ حِسَانٖ",
+      "turkishMeal": "Cennetlikler orada yeşil yastıklara ve harikulade işlemeli döşeklere yaslanırlar",
+      "transliteration": "Muttaki'eena 'alaa rafratin khudrinw wa 'abqariyyin hisaan"
+    },
+    {
+      "ayahNo": 77,
+      "arabicText": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "turkishMeal": "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız",
+      "transliteration": "Fabi ayyi aalaaa'i Rabbikumaa tukazzibaan."
+    },
+    {
+      "ayahNo": 78,
+      "arabicText": "تَبَٰرَكَ ٱسۡمُ رَبِّكَ ذِي ٱلۡجَلَٰلِ وَٱلۡإِكۡرَامِ",
+      "turkishMeal": "Büyük ve pek cömert olan Rabbinin adı ne yücedir",
+      "transliteration": "Tabaarakasmu Rabbika Zil-Jalaali wal-Ikraam"
+    }
+  ]
+}

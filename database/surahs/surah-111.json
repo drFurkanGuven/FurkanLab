@@ -1,0 +1,39 @@
+{
+  "id": 111,
+  "name": "المسد",
+  "transliteration": "Al-Masad",
+  "type": "meccan",
+  "total_verses": 5,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+      "turkishMeal": "Ebu Leheb'in elleri kurusun; kurudu da",
+      "transliteration": "Tab bat yadaa abee Lahabinw-wa tabb"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+      "turkishMeal": "Malı ve kazandığı kendisine fayda vermedi",
+      "transliteration": "Maa aghna 'anhu maaluhu wa ma kasab"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+      "turkishMeal": "Alevli ateşe yaslanacaktır",
+      "transliteration": "Sa yas laa naran zaata lahab"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+      "turkishMeal": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır",
+      "transliteration": "Wam ra-atuh hamma latal-hatab"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+      "turkishMeal": "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır",
+      "transliteration": "Fee jeediha hab lum mim-masad"
+    }
+  ]
+}

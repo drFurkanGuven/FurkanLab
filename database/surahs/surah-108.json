@@ -1,0 +1,27 @@
+{
+  "id": 108,
+  "name": "الكوثر",
+  "transliteration": "Al-Kawthar",
+  "type": "meccan",
+  "total_verses": 3,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+      "turkishMeal": "Doğrusu sana pek çok nimet vermişizdir",
+      "transliteration": "Innaa a'taina kal kauthar"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+      "turkishMeal": "Öyleyse Rabbin için namaz kıl, kurban kes",
+      "transliteration": "Fa salli li rabbika wanhar"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+      "turkishMeal": "Doğrusu adı sanı ortadan kalkacak olan, sana kin tutan kimsedir",
+      "transliteration": "Inna shani-aka huwal abtar"
+    }
+  ]
+}

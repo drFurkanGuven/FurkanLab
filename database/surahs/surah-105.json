@@ -1,0 +1,39 @@
+{
+  "id": 105,
+  "name": "الفيل",
+  "transliteration": "Al-Fil",
+  "type": "meccan",
+  "total_verses": 5,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+      "turkishMeal": "Fil sahiplerine Rabbinin ne ettiğini görmedin mi",
+      "transliteration": "Alam tara kaifa fa'ala rabbuka bi ashaabil feel"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+      "turkishMeal": "Onların düzenlerini boşa çıkarmadı mı",
+      "transliteration": "Alam yaj'al kai dahum fee tad leel"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+      "turkishMeal": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi",
+      "transliteration": "Wa arsala 'alaihim tairan abaabeel"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+      "turkishMeal": "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi",
+      "transliteration": "Tar meehim bi hi jaaratim min sij jeel"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+      "turkishMeal": "Sonunda onları, yenilmiş ekin gibi yaptı",
+      "transliteration": "Faja 'alahum ka'asfim m'akool"
+    }
+  ]
+}

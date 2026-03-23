@@ -1,0 +1,45 @@
+{
+  "id": 109,
+  "name": "الكافرون",
+  "transliteration": "Al-Kafirun",
+  "type": "meccan",
+  "total_verses": 6,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+      "turkishMeal": "De ki: \"Ey inkarcılar",
+      "transliteration": "Qul yaa-ai yuhal kaafiroon"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+      "turkishMeal": "Ben sizin taptıklarınıza tapmam",
+      "transliteration": "Laa a'budu ma t'abudoon"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "turkishMeal": "Benim taptığıma da sizler tapmazsınız",
+      "transliteration": "Wa laa antum 'aabidoona maa a'bud"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+      "turkishMeal": "Ben de sizin taptığınıza tapacak değilim",
+      "transliteration": "Wa laa ana 'abidum maa 'abattum"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "turkishMeal": "Benim taptığıma da sizler tapmıyorsunuz",
+      "transliteration": "Wa laa antum 'aabidoona ma a'bud"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+      "turkishMeal": "Sizin dininiz size, benim dinim banadır",
+      "transliteration": "Lakum deenukum wa liya deen."
+    }
+  ]
+}

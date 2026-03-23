@@ -1,0 +1,123 @@
+{
+  "id": 96,
+  "name": "العلق",
+  "transliteration": "Al-'Alaq",
+  "type": "meccan",
+  "total_verses": 19,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ",
+      "turkishMeal": "Yaratan Rabbinin adıyla oku",
+      "transliteration": "Iqra bismi rab bikal lazee khalaq"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ",
+      "turkishMeal": "O, insanı pıhtılaşmış kandan (alak'tan) yarattı",
+      "transliteration": "Khalaqal insaana min 'alaq"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ",
+      "turkishMeal": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir",
+      "transliteration": "Iqra wa rab bukal akram"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "ٱلَّذِي عَلَّمَ بِٱلۡقَلَمِ",
+      "turkishMeal": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir",
+      "transliteration": "Al lazee 'allama bil qalam"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "عَلَّمَ ٱلۡإِنسَٰنَ مَا لَمۡ يَعۡلَمۡ",
+      "turkishMeal": "Oku! Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir",
+      "transliteration": "'Al lamal insaana ma lam y'alam"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "كَلَّآ إِنَّ ٱلۡإِنسَٰنَ لَيَطۡغَىٰٓ",
+      "turkishMeal": "Ama, insanoğlu kendini müstağni sayarak azgınlık eder",
+      "transliteration": "Kallaa innal insaana layatghaa"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "أَن رَّءَاهُ ٱسۡتَغۡنَىٰٓ",
+      "turkishMeal": "Ama, insanoğlu kendini müstağni sayarak azgınlık eder",
+      "transliteration": "Ar-ra aahus taghnaa"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجۡعَىٰٓ",
+      "turkishMeal": "Dönüş şüphesiz Rabbinedir",
+      "transliteration": "Innna ilaa rabbikar ruj'aa"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "أَرَءَيۡتَ ٱلَّذِي يَنۡهَىٰ",
+      "turkishMeal": "Sen, namaz kılan kulu bundan menedeni gördün mü",
+      "transliteration": "Ara-aital lazee yanhaa"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "عَبۡدًا إِذَا صَلَّىٰٓ",
+      "turkishMeal": "Sen, namaz kılan kulu bundan menedeni gördün mü",
+      "transliteration": "'Abdan iza sallaa"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "أَرَءَيۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰٓ",
+      "turkishMeal": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun",
+      "transliteration": "Ara-aita in kana 'alal hudaa"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "أَوۡ أَمَرَ بِٱلتَّقۡوَىٰٓ",
+      "turkishMeal": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun",
+      "transliteration": "Au amara bit taqwaa"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "أَرَءَيۡتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "turkishMeal": "Söyle bakalım, o kul doğru yolda giden veya Allah'a karşı gelmekten sakınmayı buyuran bir kimse olsun; veya söyle, yalanlayıp yüz çeviren birisi olsun",
+      "transliteration": "Ara-aita in kaz zaba wa ta walla"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "أَلَمۡ يَعۡلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "turkishMeal": "Allah'ın her şeyi görmekte olduğunu bilmez mi",
+      "transliteration": "Alam y'alam bi-an nal lahaa yaraa"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "كَلَّا لَئِن لَّمۡ يَنتَهِ لَنَسۡفَعَۢا بِٱلنَّاصِيَةِ",
+      "turkishMeal": "Ama bundan vazgeçmezse, and olsun ki, onu perçeminden",
+      "transliteration": "Kalla la illam yantahi la nasfa'am bin nasiyah"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "نَاصِيَةٖ كَٰذِبَةٍ خَاطِئَةٖ",
+      "turkishMeal": "Yalancı ve günahkar perçeminden cehenneme sürükleriz",
+      "transliteration": "Nasiyatin kazi batin khaatiyah"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "فَلۡيَدۡعُ نَادِيَهُۥ",
+      "turkishMeal": "O zaman, kafadarlarını çağırsın",
+      "transliteration": "Fal yad'u naadiyah"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "سَنَدۡعُ ٱلزَّبَانِيَةَ",
+      "turkishMeal": "Biz de zebanileri çağıracağız",
+      "transliteration": "Sanad 'uz zabaaniyah"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "كَلَّا لَا تُطِعۡهُ وَٱسۡجُدۡۤ وَٱقۡتَرِب۩",
+      "turkishMeal": "Sakın ona uyma; sen secde et, Rabbine yaklaş",
+      "transliteration": "Kalla; la tuti'hu wasjud waqtarib"
+    }
+  ]
+}

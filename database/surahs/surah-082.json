@@ -1,0 +1,123 @@
+{
+  "id": 82,
+  "name": "الإنفطار",
+  "transliteration": "Al-Infitar",
+  "type": "meccan",
+  "total_verses": 19,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتۡ",
+      "turkishMeal": "Gök yarıldığı zaman",
+      "transliteration": "Izas samaaa'un fatarat"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ",
+      "turkishMeal": "Yıldızlar dağılıp döküldüğü zaman",
+      "transliteration": "Wa izal kawaakibun tasarat"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "وَإِذَا ٱلۡبِحَارُ فُجِّرَتۡ",
+      "turkishMeal": "Denizler kaynaştığı zaman",
+      "transliteration": "Wa izal bihaaru fujjirat"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَإِذَا ٱلۡقُبُورُ بُعۡثِرَتۡ",
+      "turkishMeal": "Kabirlerin içi dışa çıktığı zaman",
+      "transliteration": "Wa izal qubooru bu'sirat"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "عَلِمَتۡ نَفۡسٞ مَّا قَدَّمَتۡ وَأَخَّرَتۡ",
+      "turkishMeal": "İnsanoğlu, ne yaptığını ve ne yapmadığını görür",
+      "transliteration": "'Alimat nafsum maa qaddamat wa akhkharat"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلۡكَرِيمِ",
+      "turkishMeal": "Ey insanoğlu! Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir",
+      "transliteration": "Yaaa ayyuhal insaaanu maa gharraka bi Rabbikal kareem"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "ٱلَّذِي خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "turkishMeal": "Ey insanoğlu! Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir",
+      "transliteration": "Allazee khalaqaka fasaw waaka fa'adalak"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "فِيٓ أَيِّ صُورَةٖ مَّا شَآءَ رَكَّبَكَ",
+      "turkishMeal": "Ey insanoğlu! Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir",
+      "transliteration": "Feee ayye sooratim maa shaaa'a rakkabak"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "كَلَّا بَلۡ تُكَذِّبُونَ بِٱلدِّينِ",
+      "turkishMeal": "Hayır, hayır; doğrusu siz dini yalanlıyorsunuz",
+      "transliteration": "Kalla bal tukazziboona bid deen"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَإِنَّ عَلَيۡكُمۡ لَحَٰفِظِينَ",
+      "turkishMeal": "Oysa, yaptıklarınızı bilen değerli yazıcılar sizi gözetlemektedirler",
+      "transliteration": "Wa inna 'alaikum lahaa fizeen"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "كِرَامٗا كَٰتِبِينَ",
+      "turkishMeal": "Oysa, yaptıklarınızı bilen değerli yazıcılar sizi gözetlemektedirler",
+      "transliteration": "Kiraaman kaatibeen"
+    },
+    {
+      "ayahNo": 12,
+      "arabicText": "يَعۡلَمُونَ مَا تَفۡعَلُونَ",
+      "turkishMeal": "Oysa, yaptıklarınızı bilen değerli yazıcılar sizi gözetlemektedirler",
+      "transliteration": "Ya'lamoona ma taf'aloon"
+    },
+    {
+      "ayahNo": 13,
+      "arabicText": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٖ",
+      "turkishMeal": "İyiler şüphesiz nimet içindedirler",
+      "transliteration": "Innal abraara lafee na'eem"
+    },
+    {
+      "ayahNo": 14,
+      "arabicText": "وَإِنَّ ٱلۡفُجَّارَ لَفِي جَحِيمٖ",
+      "turkishMeal": "Allah'ın buyruğundan çıkanlar cehennemdedirler",
+      "transliteration": "Wa innal fujjaara lafee jaheem"
+    },
+    {
+      "ayahNo": 15,
+      "arabicText": "يَصۡلَوۡنَهَا يَوۡمَ ٱلدِّينِ",
+      "turkishMeal": "Din Günü oraya girerler",
+      "transliteration": "Yaslawnahaa Yawmad Deen"
+    },
+    {
+      "ayahNo": 16,
+      "arabicText": "وَمَا هُمۡ عَنۡهَا بِغَآئِبِينَ",
+      "turkishMeal": "Oradan bir daha ayrılamazlar",
+      "transliteration": "Wa maa hum 'anhaa bighaaa 'ibeen"
+    },
+    {
+      "ayahNo": 17,
+      "arabicText": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "turkishMeal": "Din gününün ne olduğunu sen nereden bilirsin",
+      "transliteration": "Wa maaa adraaka maa Yawmud Deen"
+    },
+    {
+      "ayahNo": 18,
+      "arabicText": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "turkishMeal": "Evet, din gününün ne olduğunu nereden bileceksin",
+      "transliteration": "Summa maaa adraaka maa Yawmud Deen"
+    },
+    {
+      "ayahNo": 19,
+      "arabicText": "يَوۡمَ لَا تَمۡلِكُ نَفۡسٞ لِّنَفۡسٖ شَيۡـٔٗاۖ وَٱلۡأَمۡرُ يَوۡمَئِذٖ لِّلَّهِ",
+      "turkishMeal": "O gün, kimsenin kimseye hiçbir fayda sağlamayacağı bir gündür. O gün buyruk, yalnız Allah'ındır",
+      "transliteration": "Yawma laa tamliku nafsul linafsin shai'anw walamru yawma'izil lillaah"
+    }
+  ]
+}

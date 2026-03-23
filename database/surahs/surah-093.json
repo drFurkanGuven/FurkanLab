@@ -1,0 +1,75 @@
+{
+  "id": 93,
+  "name": "الضحى",
+  "transliteration": "Ad-Duhaa",
+  "type": "meccan",
+  "total_verses": 11,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "وَٱلضُّحَىٰ",
+      "turkishMeal": "Kuşluk vaktine and olsun",
+      "transliteration": "Wad duhaa"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَٱلَّيۡلِ إِذَا سَجَىٰ",
+      "turkishMeal": "Sükun erdiği zaman geceye and olsun ki",
+      "transliteration": "Wal laili iza sajaa"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "turkishMeal": "Rabbin seni ne bıraktı ve ne de sana darıldı",
+      "transliteration": "Ma wad da'aka rabbuka wa ma qalaa"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَلَلۡأٓخِرَةُ خَيۡرٞ لَّكَ مِنَ ٱلۡأُولَىٰ",
+      "turkishMeal": "Doğrusu ahiret senin için dünyadan daha hayırlıdır",
+      "transliteration": "Walal-aakhiratu khairul laka minal-oola"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ",
+      "turkishMeal": "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın",
+      "transliteration": "Wa la sawfa y'uteeka rabbuka fatarda"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ",
+      "turkishMeal": "Seni öksüz bulup da barındırmadı mı",
+      "transliteration": "Alam ya jidka yateeman fa aawaa"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ",
+      "turkishMeal": "Seni şaşırmış bulup, doğru yola eriştirmedi mi",
+      "transliteration": "Wa wa jadaka daal lan fahada"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
+      "turkishMeal": "Seni fakir bulup zenginleştirmedi mi",
+      "transliteration": "Wa wa jadaka 'aa-ilan fa aghnaa"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ",
+      "turkishMeal": "Öyleyse sakın öksüze kötü muamele etme",
+      "transliteration": "Fa am mal yateema fala taqhar"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
+      "turkishMeal": "Ve sakın bir şey isteyeni azarlama",
+      "transliteration": "Wa am mas saa-ila fala tanhar"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ",
+      "turkishMeal": "Yalnızca Rabbinin nimetini anlat",
+      "transliteration": "Wa amma bi ni'mati rabbika fahad dith"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 94,
+  "name": "الشرح",
+  "transliteration": "Ash-Sharh",
+  "type": "meccan",
+  "total_verses": 8,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
+      "turkishMeal": "Senin gönlünü açmadık mı",
+      "transliteration": "Alam nashrah laka sadrak"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ",
+      "turkishMeal": "Belini büken yükünü üzerinden almadık mı",
+      "transliteration": "Wa wa d'ana 'anka wizrak"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ",
+      "turkishMeal": "Belini büken yükünü üzerinden almadık mı",
+      "transliteration": "Allazee anqada zahrak"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ",
+      "turkishMeal": "Senin şanını yükseltmedik mi",
+      "transliteration": "Wa raf 'ana laka zikrak"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا",
+      "turkishMeal": "Elbette güçlükle beraber şüphesiz bir kolaylık vardır",
+      "transliteration": "Fa inna ma'al usri yusra"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا",
+      "turkishMeal": "Gerçekten, güçlükle beraber bir kolaylık vardır",
+      "transliteration": "Inna ma'al 'usri yusra"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ",
+      "turkishMeal": "Öyleyse, bir işi bitirince diğerine giriş",
+      "transliteration": "Fa iza faragh ta fansab"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب",
+      "turkishMeal": "Ve ümit edeceğini yalnız Rabbinden iste",
+      "transliteration": "Wa ilaa rabbika far ghab"
+    }
+  ]
+}

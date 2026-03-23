@@ -1,0 +1,39 @@
+{
+  "id": 97,
+  "name": "القدر",
+  "transliteration": "Al-Qadr",
+  "type": "meccan",
+  "total_verses": 5,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
+      "turkishMeal": "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir",
+      "transliteration": "Innaa anzalnaahu fee lailatil qadr"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
+      "turkishMeal": "Kadir gecesinin ne olduğunu sen bilir misin",
+      "transliteration": "Wa maa adraaka ma lailatul qadr"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+      "turkishMeal": "Kadir gecesi bin aydan hayırlıdır",
+      "transliteration": "Lailatul qadri khairum min alfee shahr"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "تَنَزَّلُ ٱلۡمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
+      "turkishMeal": "Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler",
+      "transliteration": "Tanaz zalul malaa-ikatu war roohu feeha bi izni-rab bihim min kulli amr"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
+      "turkishMeal": "O gece, tan yerinin ağarmasına kadar bir esenliktir",
+      "transliteration": "Salaamun hiya hattaa mat la'il fajr"
+    }
+  ]
+}

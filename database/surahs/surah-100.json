@@ -1,0 +1,75 @@
+{
+  "id": 100,
+  "name": "العاديات",
+  "transliteration": "Al-'Adiyat",
+  "type": "meccan",
+  "total_verses": 11,
+  "verses": [
+    {
+      "ayahNo": 1,
+      "arabicText": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+      "turkishMeal": "And olsun Allah yolunda koştukça koşanlara",
+      "transliteration": "Wal'aadi yaati dabha"
+    },
+    {
+      "ayahNo": 2,
+      "arabicText": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+      "turkishMeal": "And olsun kıvılcımlar saçanlara",
+      "transliteration": "Fal moori yaati qadha"
+    },
+    {
+      "ayahNo": 3,
+      "arabicText": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+      "turkishMeal": "Sabah sabah akına çıkanlara",
+      "transliteration": "Fal mugheeraati subha"
+    },
+    {
+      "ayahNo": 4,
+      "arabicText": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+      "turkishMeal": "Ve tozu dumana katanlara",
+      "transliteration": "Fa atharna bihee naq'a"
+    },
+    {
+      "ayahNo": 5,
+      "arabicText": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+      "turkishMeal": "Düşman topluluğunun içine dalanlara ki",
+      "transliteration": "Fawa satna bihee jam'a"
+    },
+    {
+      "ayahNo": 6,
+      "arabicText": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+      "turkishMeal": "İnsan gerçekten Rabbine karşı pek nankördür",
+      "transliteration": "Innal-insana lirabbihee lakanood"
+    },
+    {
+      "ayahNo": 7,
+      "arabicText": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+      "turkishMeal": "Doğrusu kendisi de bunların hepsine şahittir",
+      "transliteration": "Wa innahu 'alaa zaalika la shaheed"
+    },
+    {
+      "ayahNo": 8,
+      "arabicText": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+      "turkishMeal": "Gerçekten mala da pek düşkündür",
+      "transliteration": "Wa innahu lihubbil khairi la shadeed"
+    },
+    {
+      "ayahNo": 9,
+      "arabicText": "۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+      "turkishMeal": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi",
+      "transliteration": "Afala ya'lamu iza b'uthira ma filquboor"
+    },
+    {
+      "ayahNo": 10,
+      "arabicText": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+      "turkishMeal": "İnsan, kabirlerde bulunanların çıkarılacağı ve kalblerde olanların ortaya konulacağı bir zamanın geleceğini bilmez mi",
+      "transliteration": "Wa hussila maa fis sudoor"
+    },
+    {
+      "ayahNo": 11,
+      "arabicText": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+      "turkishMeal": "Doğrusu Rableri o gün onların her şeyinden haberdardır",
+      "transliteration": "Inna rabbahum bihim yauma 'izil la khabeer"
+    }
+  ]
+}
