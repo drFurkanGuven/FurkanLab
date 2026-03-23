@@ -1,4 +1,4 @@
-const { prisma } = require("./utils/db");
+const { prisma, handleDbError } = require("./utils/db");
 const { getUserFromHeaders, respond } = require("./utils/auth");
 
 exports.handler = async (event) => {
@@ -22,7 +22,8 @@ exports.handler = async (event) => {
       return respond(200, { events });
     } catch (err) {
       console.error("Events list error:", err);
-      return respond(500, { error: "Sunucu hatası." });
+      const dbErr = handleDbError(err);
+      return respond(dbErr.status, { error: dbErr.message });
     }
   }
 
@@ -59,7 +60,8 @@ exports.handler = async (event) => {
       return respond(201, { event: bookEvent });
     } catch (err) {
       console.error("Event create error:", err);
-      return respond(500, { error: "Sunucu hatası." });
+      const dbErr = handleDbError(err);
+      return respond(dbErr.status, { error: dbErr.message });
     }
   }
 

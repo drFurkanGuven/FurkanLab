@@ -1,4 +1,4 @@
-const { prisma } = require("./utils/db");
+const { prisma, handleDbError } = require("./utils/db");
 const { getUserFromHeaders, respond } = require("./utils/auth");
 
 exports.handler = async (event) => {
@@ -52,7 +52,8 @@ exports.handler = async (event) => {
       return respond(200, { progress });
     } catch (err) {
       console.error("Progress update error:", err);
-      return respond(500, { error: "Sunucu hatası." });
+      const dbErr = handleDbError(err);
+      return respond(dbErr.status, { error: dbErr.message });
     }
   }
 

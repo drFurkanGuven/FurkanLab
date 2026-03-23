@@ -1,4 +1,4 @@
-const { prisma } = require('./utils/db');
+const { prisma, handleDbError } = require('./utils/db');
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -77,10 +77,11 @@ exports.handler = async (event) => {
     };
   } catch (err) {
     console.error('kuran-search error:', err);
+    const dbErr = handleDbError(err);
     return {
-      statusCode: 500,
+      statusCode: dbErr.status,
       headers: CORS,
-      body: JSON.stringify({ error: 'Sunucu hatası oluştu.' }),
+      body: JSON.stringify({ error: dbErr.message }),
     };
   }
 };

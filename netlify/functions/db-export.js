@@ -1,4 +1,4 @@
-const { prisma } = require("./utils/db");
+const { prisma, handleDbError } = require("./utils/db");
 
 exports.handler = async (event) => {
   const headers = {
@@ -66,10 +66,11 @@ exports.handler = async (event) => {
       body: JSON.stringify(exportData, null, 2),
     };
   } catch (error) {
+    const dbErr = handleDbError(error);
     return {
-      statusCode: 500,
+      statusCode: dbErr.status,
       headers,
-      body: JSON.stringify({ error: "Database export failed", details: error.message }),
+      body: JSON.stringify({ error: dbErr.message }),
     };
   }
 };

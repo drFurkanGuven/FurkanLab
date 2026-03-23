@@ -1,5 +1,5 @@
 const bcrypt = require("bcryptjs");
-const { prisma } = require("./utils/db");
+const { prisma, handleDbError } = require("./utils/db");
 const { createToken, respond } = require("./utils/auth");
 
 exports.handler = async (event) => {
@@ -36,6 +36,7 @@ exports.handler = async (event) => {
     });
   } catch (err) {
     console.error("Login error:", err);
-    return respond(500, { error: "Sunucu hatası." });
+    const dbErr = handleDbError(err);
+    return respond(dbErr.status, { error: dbErr.message });
   }
 };

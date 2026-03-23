@@ -21,10 +21,28 @@
     const token = getToken();
     const headers = { "Content-Type": "application/json" };
     if (token) headers["Authorization"] = "Bearer " + token;
-    const res = await fetch(API + path, { ...options, headers });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || "Bir hata oluştu.");
-    return data;
+
+    let lastError;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await fetch(API + path, { ...options, headers });
+        const data = await res.json();
+        if (res.status === 503 && attempt < 2) {
+          await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+          continue;
+        }
+        if (!res.ok) throw new Error(data.error || "Bir hata oluştu.");
+        return data;
+      } catch (err) {
+        lastError = err;
+        if (attempt < 2 && (err.name === 'TypeError' || (err.message && err.message.includes('bağlantı')))) {
+          await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+          continue;
+        }
+        throw err;
+      }
+    }
+    throw lastError;
   }
 
   function $(sel) {
