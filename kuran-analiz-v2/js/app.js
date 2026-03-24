@@ -357,6 +357,30 @@
     if (box) box.classList.remove('active');
   }
 
+  // ── Retry-enabled fetch for database cold starts ──
+  function fetchWithRetry(url, retries) {
+    if (retries === undefined) retries = 2;
+    return fetch(url).then(function (r) {
+      if (r.status === 503 && retries > 0) {
+        return new Promise(function (resolve) {
+          setTimeout(function () {
+            resolve(fetchWithRetry(url, retries - 1));
+          }, 2000 * (3 - retries));
+        });
+      }
+      return r;
+    }).catch(function (err) {
+      if (retries > 0) {
+        return new Promise(function (resolve) {
+          setTimeout(function () {
+            resolve(fetchWithRetry(url, retries - 1));
+          }, 2000 * (3 - retries));
+        });
+      }
+      throw err;
+    });
+  }
+
   /* ══════════════════════════════════════════════════════════════
      SEARCH
      ══════════════════════════════════════════════════════════════ */
@@ -376,11 +400,11 @@
 
     // Fetch stats, results, and correlation in parallel
     Promise.all([
-      fetch(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&stats=true' + exactParam)
+      fetchWithRetry(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&stats=true' + exactParam)
         .then(function (r) { return r.json(); }),
-      fetch(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&limit=' + LIMIT + '&offset=0' + exactParam)
+      fetchWithRetry(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&limit=' + LIMIT + '&offset=0' + exactParam)
         .then(function (r) { return r.json(); }),
-      fetch(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&correlation=true')
+      fetchWithRetry(API + '?q=' + encodeURIComponent(q) + '&mode=' + currentMode + '&correlation=true')
         .then(function (r) { return r.json(); })
         .catch(function () { return { correlations: [] }; })
     ]).then(function (responses) {
@@ -409,7 +433,7 @@
 
   function fetchMoreResults() {
     var exactParam = (currentMode === 'text' && exactMatch) ? '&exact=true' : '';
-    fetch(API + '?q=' + encodeURIComponent(currentQuery) + '&mode=' + currentMode + '&limit=' + LIMIT + '&offset=' + currentOffset + exactParam)
+    fetchWithRetry(API + '?q=' + encodeURIComponent(currentQuery) + '&mode=' + currentMode + '&limit=' + LIMIT + '&offset=' + currentOffset + exactParam)
       .then(function (r) { return r.json(); })
       .then(function (data) {
         if (data.error) {

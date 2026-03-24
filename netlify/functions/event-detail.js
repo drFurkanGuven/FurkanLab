@@ -1,4 +1,4 @@
-const { prisma } = require("./utils/db");
+const { prisma, handleDbError } = require("./utils/db");
 const { respond } = require("./utils/auth");
 
 exports.handler = async (event) => {
@@ -34,6 +34,7 @@ exports.handler = async (event) => {
     return respond(200, { event: bookEvent });
   } catch (err) {
     console.error("Event detail error:", err);
-    return respond(500, { error: "Sunucu hatası." });
+    const dbErr = handleDbError(err);
+    return respond(dbErr.status, { error: dbErr.message });
   }
 };

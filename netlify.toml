@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = "npm install && export DATABASE_URL=\"$NETLIFY_DATABASE_URL\" && npx prisma generate && npx prisma db push --accept-data-loss && node scripts/seed-quran.js"
+  command = "npm install && export DATABASE_URL=\"$NETLIFY_DATABASE_URL\" && npx prisma generate && (npx prisma db push && node scripts/seed-quran.js || echo 'WARNING: Database sync/seed skipped - DB may be unreachable')"
 
 [functions]
   directory = "netlify/functions"
@@ -59,4 +59,9 @@
 [[redirects]]
   from = "/api/kuran/wbw"
   to = "/.netlify/functions/kuran-wbw"
+  status = 200
+
+[[redirects]]
+  from = "/api/db-export"
+  to = "/.netlify/functions/db-export"
   status = 200
